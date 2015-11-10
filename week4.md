@@ -2,8 +2,7 @@
 
 ## DAY 1
 
-
- INSTALL KOKOPELLI 
+### KOKOPELLI INSTALLATION
 
 I am new to KOKOPELLI and starting out right in the kokopelli for UBUNTU version 14.04.
  
@@ -16,6 +15,9 @@ Make fab
 cd bin
 
 Error occured- No output
+
+![SCREENSHOT](image/PC1.png)
+
 ## Solution
 
 Refer-"github-mkeeter /kokopelli/wiki/installing"
