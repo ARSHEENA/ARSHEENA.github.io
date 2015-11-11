@@ -8,7 +8,7 @@ Kokopelli is a software tool for computer-aided design and manufacturing,an open
 
 I am new to Kokopelli and starting out right in the kokopelli for UBUNTU version 14.04.Our trainer for this week Mr.Franisco helped me since begining,
  
--Download KOKO-RETRO ZIP from the link provided by MR.Francisco
+-Download KOKO-RETRO ZIP from the link 
 -exctracted  it
 open the folder koko-retro
 ### Open Terminal-Use the following instruction
@@ -19,7 +19,7 @@ open the folder koko-retro
 
 to open  kokopelli 
 
-* ./kokopelli -r 
+* `./kokopelli -r`
 
 Error occured- No output
 
@@ -29,7 +29,7 @@ the code  was to draw a circle, but there were no circle as output.
 
 my terminal
 
-![SCREENSHOT](img/PC1.png)
+![SCREENSHOT](img/pic1.png)
 
 ## Solution
 
@@ -67,7 +67,7 @@ to ~/.bashrc, with fab/bin replaced by the location of the bin directory.
 
 Finally it worked!!!!............i got the desired output...
 
-![pic3](image/final.png)
+![pic3](img/final.png)
 
 The very next step which i have donewas downloading the ".cad" file from the link
  http://academy.cba.mit.edu/classes/embedded_programming/index.html
@@ -81,19 +81,7 @@ its format was quiet  intresting,which display an ordered list in  two columns, 
 
 Mr.Francisco gave a tutorial about the fuctions in kokopelli to add a component which we need,wire the component and allign the pcb.
 
-###Board design 
-
-
-
-
-
-
-
-
-
-
-
-
+* Define Board-Line 3595
 
 ## DAY 2
 ### clean up the lab
@@ -115,9 +103,9 @@ Since the bed is leveled in relation to the plane of relative x-y motion of the 
 
 Designed a clip for 3D printer meterial and printed it.
 
-## Design hello.ftdi.44 in Kokopelli
+##  hello.ftdi.44 in Kokopelli
 Added a LED,RESISTOR AND BUTTON in  using KOKOPELLI
-
+* 'make fab'
 
 ## DAY 3
 ## DAY 4
