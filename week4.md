@@ -18,16 +18,18 @@ open the folder koko-retro
 * `cd bin`
 
 to open  kokopelli 
-###./kokopelli -r 
+
+* ./kokopelli -r 
 
 Error occured- No output
 
 the code  was to draw a circle, but there were no circle as output.
-![KOKOPELLIERROR](image/error.png)
+
+![KOKOPELLIERROR](img/error.png)
 
 my terminal
 
-![SCREENSHOT](image/PC1.png)
+![SCREENSHOT](img/PC1.png)
 
 ## Solution
 
@@ -46,7 +48,44 @@ open terminal
 
 use the command 'sudo ./kokpelli -r
 
-Oopa
+OopS.....Still no oputput....
+
+![koko](img/pic1.png)
+
+
+To troubleshoot-referred  http://kokompe.cba.mit.edu/-Downloads
+
+I hope i can solve this problem by using following commands
+
+*  make install -this one  will copy all executables and scripts to /usr/local/bin.
+
+Alternatively, you can add the bin folder to your path. To do this, add the line
+
+export PATH=fab/bin:$PATH
+
+to ~/.bashrc, with fab/bin replaced by the location of the bin directory. 
+
+Finally it worked!!!!............i got the desired output...
+
+![pic3](image/final.png)
+
+The very next step which i have donewas downloading the ".cad" file from the link
+ http://academy.cba.mit.edu/classes/embedded_programming/index.html
+
+-opened the downloaded ".cad" file in Kokopelli,
+File->Open->hello.ftdi.44.cad
+
+its format was quiet  intresting,which display an ordered list in  two columns, left side for  the code, and  right side the pcb preview.
+
+![pic5](img/lll.png)
+
+Mr.Francisco gave a tutorial about the fuctions in kokopelli to add a component which we need,wire the component and allign the pcb.
+
+###Board design 
+
+
+
+
 
 
 
@@ -77,7 +116,7 @@ Since the bed is leveled in relation to the plane of relative x-y motion of the 
 Designed a clip for 3D printer meterial and printed it.
 
 ## Design hello.ftdi.44 in Kokopelli
-Added a LED,RESISTOR AND BUTTON using KOKOPELLI
+Added a LED,RESISTOR AND BUTTON in  using KOKOPELLI
 
 
 ## DAY 3
