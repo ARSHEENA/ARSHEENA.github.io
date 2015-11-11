@@ -39,7 +39,7 @@ To communicate with the Fab Academy server in order to clone and communicate wit
 * 2.Then to instal Mercurial - Type:
   sudo apt-get install mercurial
   
-  * 3
+
 
 
 ## 
