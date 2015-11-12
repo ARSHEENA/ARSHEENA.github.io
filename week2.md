@@ -1,5 +1,7 @@
 # WEEK 2
 
+EXTREME MACHINES Week!!! 
+
 ## DAY 1
 ### Introduction to vinyl cutter
 ### working of vinyl cutter

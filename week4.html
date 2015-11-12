@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="week-4">WEEK 4</h1>
+<h2 id="day-1">DAY 1</h2>
+<h3 id="kokopelli-installation">KOKOPELLI INSTALLATION</h3>
+<p>Kokopelli is a software tool for computer-aided design and manufacturing,an opensource tool the design the PCBs,2D and 3D models can described as Python scripts</p>
+<p>I am new to Kokopelli and starting out right in the kokopelli for UBUNTU version 14.04.Our trainer for this week Mr.Franisco helped me since begining,</p>
+<p>-Download KOKO-RETRO ZIP from the link -exctracted it open the folder koko-retro</p>
+<h3 id="open-terminal-use-the-following-instruction">Open Terminal-Use the following instruction</h3>
+<ul>
+<li><code>make clean</code></li>
+<li><code>cd bin</code></li>
+<li>'cd bin'</li>
+</ul>
+<p>to open kokopelli</p>
+<ul>
+<li><code>./kokopelli -r</code></li>
+</ul>
+<p>Error occured- No output</p>
+<p>the code was to draw a circle, but there were no circle as output.</p>
+<div class="figure">
+<img src="img/error.png" alt="SCREENSHOT" />
+<p class="caption">SCREENSHOT</p>
+</div>
+<p>my terminal</p>
+<div class="figure">
+<img src="img/pic1.png" alt="pic1" />
+<p class="caption">pic1</p>
+</div>
+<h2 id="solution">Solution</h2>
+<p>Refer-&quot;github-mkeeter /kokopelli/wiki/installing&quot;</p>
+<p>We should install some python libraries already in pc to run Kokopelli</p>
+<p>The required Python libraries are available through pip.</p>
+<pre><code>sudo pip install numpy PyOpenGL PyOpenGL_accelerate</code></pre>
+<p>Again tried to open Kokopelli</p>
+<p>open terminal</p>
+<p>use the command 'sudo ./kokpelli -r</p>
+<p>OopS.....Still no oputput....</p>
+<div class="figure">
+<img src="img/error.png" alt="SCREENSHOT" />
+<p class="caption">SCREENSHOT</p>
+</div>
+<p>To troubleshoot-referred http://kokompe.cba.mit.edu/-Downloads</p>
+<p>I hope i can solve this problem by using following commands</p>
+<pre><code>make install -this one will copy all executables and scripts to /usr/local/bin.</code></pre>
+<p>Alternatively, you can add the bin folder to your path. To do this, add the line <code>*</code>export PATH=fab/bin:$PATH`</p>
+<p>to ~/.bashrc, with fab/bin replaced by the location of the bin directory.</p>
+<p>Finally it worked!!!!............i got the desired output...</p>
+<div class="figure">
+<img src="img/final.png" alt="output" />
+<p class="caption">output</p>
+</div>
+<p>The very next step which i have donewas downloading the &quot;.cad&quot; file from the link</p>
+<p><code>http://academy.cba.mit.edu/classes/embedded_programming/index.html</code></p>
+<p>-opened the downloaded &quot;.cad&quot; file in Kokopelli, File-&gt;Open-&gt;hello.ftdi.44.cad</p>
+<p>its format was quiet intresting,which display an ordered list in two columns, left side for the code, and right side the pcb preview.</p>
+<div class="figure">
+<img src="img/lll.png" alt="ftdi" />
+<p class="caption">ftdi</p>
+</div>
+<p>Mr.Francisco gave a tutorial about the fuctions in kokopelli to add a component which we need,wire the component and allign the pcb.</p>
+<ul>
+<li>Define Board-Line 3595</li>
+</ul>
+<h2 id="day-2">DAY 2</h2>
+<h3 id="clean-up-the-lab">clean up the lab</h3>
+<p>Second day of this week started off cleaning up the lab ,When it comes to cleaning and organizing ,it became quiet fun.</p>
+<h3 id="leveling-3d-printer">Leveling 3d printer</h3>
+<p>Maintaining a level print bed on 3D Printer is very important. High quality prints and reliable printing depend on a level bed, particularly at high resolutions. Mr.Francisco explained why it's so important, how to achieve it, and what we should do if we just can't get there with the printer.</p>
+<p>Since the bed is leveled in relation to the plane of relative x-y motion of the nozzle , the nozzle should be consistent height above all points on the bed. This is a precise adjustment that benefits from great care and attention. The frequency with which will need to perform a bed leveling is dependent largely on our printer's design, how careful when we removing parts, and how often you use the printer.</p>
+<h3 id="d-printer-assignment">3D printer assignment</h3>
+<p>Designed a clip for 3D printer meterial and printed it.</p>
+<h2 id="design-hello.ftdi.44-in-kokopelli">Design hello.ftdi.44 in Kokopelli</h2>
+<p>Added a LED,RESISTOR AND BUTTON in using KOKOPELLI</p>
+<ul>
+<li>'make fab'</li>
+</ul>
+<h3 id="download-and-install-arduino-ide">Download and install Arduino IDE</h3>
+<ul>
+<li>https://www.arduino.cc/</li>
+<li></li>
+</ul>
+<h2 id="day-3">DAY 3</h2>
+<h2 id="milling-hello.ftdi.44">Milling hello.ftdi.44</h2>
+<h2 id="arudino-1.6.6-attiny">Arudino 1.6.6 Attiny</h2>
+<h2 id="day-4">DAY 4</h2>
+</body>
+</html>

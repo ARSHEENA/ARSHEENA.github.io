@@ -3,85 +3,87 @@
 ## DAY 1
 
 ### KOKOPELLI INSTALLATION
-
 Kokopelli is a software tool for computer-aided design and manufacturing,an opensource tool the design the PCBs,2D and 3D models can described as Python scripts
 
 I am new to Kokopelli and starting out right in the kokopelli for UBUNTU version 14.04.Our trainer for this week Mr.Franisco helped me since begining,
- 
--Download KOKO-RETRO ZIP from the link 
--exctracted  it
-open the folder koko-retro
+
+-Download KOKO-RETRO ZIP from the link -exctracted it open the folder koko-retro
+
+
 ### Open Terminal-Use the following instruction
 
 * `make clean`
-* `make fab`
 * `cd bin`
+* 'cd bin'
 
-to open  kokopelli 
+to open kokopelli
 
 * `./kokopelli -r`
 
 Error occured- No output
 
-the code  was to draw a circle, but there were no circle as output.
+the code was to draw a circle, but there were no circle as output.
 
-![KOKOPELLIERROR](img/error.png)
+![SCREENSHOT](img/error.png)
 
-my terminal
+ my terminal 
 
-![SCREENSHOT](img/pic1.png)
-
+![pic1](img/pic1.png)
+ 
 ## Solution
 
 Refer-"github-mkeeter /kokopelli/wiki/installing"
 
 We should install some python libraries already in pc to run Kokopelli
- 
+
 The required Python libraries are available through pip.
 
-* sudo pip install numpy PyOpenGL PyOpenGL_accelerate
+    sudo pip install numpy PyOpenGL PyOpenGL_accelerate
 
-Again tried to open Kokopelli 
+Again tried to open Kokopelli
 
-open terminal 
-
+open terminal
 
 use the command 'sudo ./kokpelli -r
 
 OopS.....Still no oputput....
 
-![koko](img/pic1.png)
 
 
-To troubleshoot-referred  http://kokompe.cba.mit.edu/-Downloads
+![SCREENSHOT](img/error.png)
+
+To troubleshoot-referred http://kokompe.cba.mit.edu/-Downloads
 
 I hope i can solve this problem by using following commands
 
-*  make install -this one  will copy all executables and scripts to /usr/local/bin.
+    make install -this one will copy all executables and scripts to /usr/local/bin.
 
 Alternatively, you can add the bin folder to your path. To do this, add the line
+`
+* `export PATH=fab/bin:$PATH`
 
-export PATH=fab/bin:$PATH
-
-to ~/.bashrc, with fab/bin replaced by the location of the bin directory. 
+to ~/.bashrc, with fab/bin replaced by the location of the bin directory.
 
 Finally it worked!!!!............i got the desired output...
 
-![pic3](img/final.png)
+![output](img/final.png)
 
-The very next step which i have donewas downloading the ".cad" file from the link
- http://academy.cba.mit.edu/classes/embedded_programming/index.html
 
--opened the downloaded ".cad" file in Kokopelli,
-File->Open->hello.ftdi.44.cad
+The very next step which i have donewas downloading the ".cad" file from the link 
 
-its format was quiet  intresting,which display an ordered list in  two columns, left side for  the code, and  right side the pcb preview.
+ `http://academy.cba.mit.edu/classes/embedded_programming/index.html`
 
-![pic5](img/lll.png)
+-opened the downloaded ".cad" file in Kokopelli, File->Open->hello.ftdi.44.cad
+
+its format was quiet intresting,which display an ordered list in two columns, left side for the code, and right side the pcb preview.
+
+![ftdi](img/lll.png)
+
 
 Mr.Francisco gave a tutorial about the fuctions in kokopelli to add a component which we need,wire the component and allign the pcb.
 
 * Define Board-Line 3595
+
 
 ## DAY 2
 ### clean up the lab
@@ -103,11 +105,22 @@ Since the bed is leveled in relation to the plane of relative x-y motion of the 
 
 Designed a clip for 3D printer meterial and printed it.
 
-##  hello.ftdi.44 in Kokopelli
-Added a LED,RESISTOR AND BUTTON in  using KOKOPELLI
+## Design hello.ftdi.44 in Kokopelli
+
+Added a LED,RESISTOR AND BUTTON in using KOKOPELLI
+
 * 'make fab'
 
+
+### Download and install Arduino IDE 
+* https://www.arduino.cc/
+* 
+
+
+
 ## DAY 3
+## Milling hello.ftdi.44
+## Arudino 1.6.6 Attiny 
 ## DAY 4
 
 
