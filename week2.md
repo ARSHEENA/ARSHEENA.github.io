@@ -1,6 +1,7 @@
 # WEEK 2
 
 EXTREME MACHINES Week!!! 
+horrible day
 
 ## DAY 1
 ### Introduction to vinyl cutter
