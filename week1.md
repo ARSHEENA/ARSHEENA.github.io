@@ -48,6 +48,6 @@ To communicate with the Fab Academy server in order to clone and communicate wit
 
 
 
-![fablogo](/img/index.png)
+
 
 
