@@ -14,7 +14,8 @@ I am new to Kokopelli and starting out right in the kokopelli for UBUNTU version
 
 * `make clean`
 * `cd bin`
-* 'cd bin'
+* `make fab`
+* `make install`
 
 to open kokopelli
 
