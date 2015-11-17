@@ -17,6 +17,8 @@ Morning session started off with introduction about the the working principles t
 This  was quiet a difficult session for me ,i have never used ubuntu before...I always used Windows,since i am new to ubuntu and linux i had so many questions throughout the installation process,Mr.Luciano and helped me to troubleshoot and make it happen.
 
  The fab modules and almost all the machines in fablab are running  using LInux ,installing Programs on Ubuntu is different from Windows. It uses a package management. Packages can be programs but also libraries and other stuff. The package management makes sure that all the software works well together. And that is not all. If you install a program that needs for example Java, the package management knows that and installs Java totally automatically. Packages are in repositories. Most Linux distributions have their own repositories and so has Ubuntu. You can find the software in these repositories in the Ubuntu Software Centre.
+ 
+![](img/ubuntu.png)
 
 * Basic commands which i listed for updation ,upgradation,etc
 
@@ -28,10 +30,11 @@ This  was quiet a difficult session for me ,i have never used ubuntu before...I 
 6. `mkdir`
 7. `cd`
 
+
 #### 2. MERCURIAL INSTALLATION
 `
-In this part of the lecture, got an introduction about mercurial,Mercurial is a cross-platform, distributed revision control tool for software developers.Tutorial which covers how to install Mercurial on Ubuntu and clone the Fab Academy archive helped me to install mercurial.
-
+In this part of the lecture, got an introduction about mercurial,to get setup on the course website using Mercurial. I'd heard of it before but not ever really looked into it in detail.
+Mercurial is a cross-platform, distributed revision control tool for software developers.Tutorial which covers how to install Mercurial on Ubuntu and clone the Fab Academy archive helped me to install mercurial.
 To communicate with the Fab Academy server in order to clone and communicate with the shared archive we should need SECURE SHELL(first time in my life iam doing such stuffs) ,for that i used this command
 
 1. sudo apt-get install ssh 

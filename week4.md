@@ -83,7 +83,7 @@ its format was quiet intresting,which display an ordered list in two columns, le
 
 Mr.Francisco gave a tutorial about the fuctions in kokopelli to add a component which we need,wire the component and allign the pcb.
 
-* Define Board-Line 3595
+
 
 
 ## DAY 2
