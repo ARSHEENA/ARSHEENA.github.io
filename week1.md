@@ -11,6 +11,21 @@ The trainer for the Pre Fab academy Mr.Luciano Betlodi gave a brief introduction
 
 Morning session started off with introduction about the the working principles that have to be followed while working in Fablab,explanation about the principles followed by MIT,softwares we should use during fab academy,how to use open source,importance of documentation during each and every steps of our assignment or project.
 
+Mr.Luciano took us to a virtual tour to show Fab labs in world, various apllications people across the world has developed using the Fablab facility,How virtual class session will take place during Fab Academy.
+
+![](img/fabclass.png)
+
+Luciano disussed about digital fabrication,its scope and technology. 
+
+![](img/intro.png)
+
+
+
+
+
+
+  
+
 
 ####  Ubuntu 14.04 installation
 
@@ -35,12 +50,18 @@ This  was quiet a difficult session for me ,i have never used ubuntu before...I 
 `
 In this part of the lecture, got an introduction about mercurial,to get setup on the course website using Mercurial. I'd heard of it before but not ever really looked into it in detail.
 Mercurial is a cross-platform, distributed revision control tool for software developers.Tutorial which covers how to install Mercurial on Ubuntu and clone the Fab Academy archive helped me to install mercurial.
-To communicate with the Fab Academy server in order to clone and communicate with the shared archive we should need SECURE SHELL(first time in my life iam doing such stuffs) ,for that i used this command
+To communicate with the Fab Academy server in order to clone and communicate with the shared archive we should need SECURE SHELL ,for that i used this command
 
 1. `sudo apt-get install ssh` 
 
 2. Then to instal Mercurial - Type:
   `sudo apt-get install mercurial`
+ 
+![](img/mercurial.png)
+
+### Website Development for documetation
+
+Mr.Luciano asked us to develop a website to document our each and every activities of the Pre-FabAcademy,for that he asked to design a website usinh html5,as i am 
   
 
 
