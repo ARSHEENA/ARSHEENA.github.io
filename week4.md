@@ -27,9 +27,9 @@ the code was to draw a circle, but there were no circle as output.
 
 ![](img/error.png)
 
- my terminal 
+Terminal.........
 
-![](img/pic2png.png)
+![](img/pic2.png)
  
 ## Solution
 
