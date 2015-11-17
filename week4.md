@@ -29,7 +29,7 @@ the code was to draw a circle, but there were no circle as output.
 
  my terminal 
 
-![](img/pic1.png)
+![](img/pic2png.png)
  
 ## Solution
 
