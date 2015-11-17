@@ -25,11 +25,11 @@ Error occured- No output
 
 the code was to draw a circle, but there were no circle as output.
 
-![SCREENSHOT](img/error.png)
+![](img/error.png)
 
  my terminal 
 
-![pic1](img/pic1.png)
+![](img/pic1.png)
  
 ## Solution
 
@@ -51,7 +51,7 @@ OopS.....Still no oputput....
 
 
 
-![SCREENSHOT](img/error.png)
+![](img/error.png)
 
 To troubleshoot-referred http://kokompe.cba.mit.edu/-Downloads
 
@@ -67,7 +67,7 @@ to ~/.bashrc, with fab/bin replaced by the location of the bin directory.
 
 Finally it worked!!!!............i got the desired output...
 
-![output](img/final.png)
+![](img/final.png)
 
 
 The very next step which i have donewas downloading the ".cad" file from the link 
@@ -78,7 +78,7 @@ The very next step which i have donewas downloading the ".cad" file from the lin
 
 its format was quiet intresting,which display an ordered list in two columns, left side for the code, and right side the pcb preview.
 
-![ftdi](img/lll.png)
+![](img/lll.png)
 
 
 Mr.Francisco gave a tutorial about the fuctions in kokopelli to add a component which we need,wire the component and allign the pcb.
