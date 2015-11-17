@@ -37,10 +37,10 @@ In this part of the lecture, got an introduction about mercurial,to get setup on
 Mercurial is a cross-platform, distributed revision control tool for software developers.Tutorial which covers how to install Mercurial on Ubuntu and clone the Fab Academy archive helped me to install mercurial.
 To communicate with the Fab Academy server in order to clone and communicate with the shared archive we should need SECURE SHELL(first time in my life iam doing such stuffs) ,for that i used this command
 
-1. sudo apt-get install ssh 
+1. `sudo apt-get install ssh` 
 
-* 2.Then to instal Mercurial - Type:
-  sudo apt-get install mercurial
+2. Then to instal Mercurial - Type:
+  `sudo apt-get install mercurial`
   
 
 
