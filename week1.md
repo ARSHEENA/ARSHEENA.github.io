@@ -63,6 +63,11 @@ To communicate with the Fab Academy server in order to clone and communicate wit
 
 Mr.Luciano asked us to develop a website to document our each and every activities of the Pre-FabAcademy,for that he asked to design a website using html5,firs i downloaded a bootstrap free template,as i am not familiar with html5 and i don't have much time i think now its better to use Markdown,Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
 
+###Day3
+
+Ubuntu installation continue...
+Y
+esterday it was not installed in many of the computers. so today also the day started off installing linux , updating it etc.It took  almost 2 hours \ get the linux installed in all computers. 
   
 
 
