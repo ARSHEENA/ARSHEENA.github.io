@@ -81,9 +81,22 @@ He gave a brief description about commands in Rhino and showed how to design a m
 ### Day4
 ####Design using Rhinos
 
-Today was completely for Rhinoceros,Luciano taught us each and every command using to design and gave an assignment,
+Today was completely for Rhinoceros,Luciano taught us before learning individual tools, we will be acquainted with the Rhino interface.He said these following exercises examine the interface elements used in Rhino: the Rhino window, viewports, menus, toolbars, and dialog boxes.  He gave a lecture about each and every commands we can  use to design and, we got our first assignment using rhinos as well ...
 
+he shared a list of commands to do this assignment via slack.
 
+Rhino Homework 1!
+1.Polygon
+2.Spiral
+3.Cylinder
+​4.Polyline or Line
+5.Sweep1
+​6.Sweep2
+7.Bounding Box
+​6.Boolean Difference
+ho god....it took almost 4 hours to complete this design(my first work in rhinos.....!!!)
+
+![](img/rhino.png)
   
 
 
