@@ -79,29 +79,28 @@ Luciano showed us different CAD softwares and he suggested to use Rhinoceros(for
 He gave a brief description about commands in Rhino and showed how to design a mould using Rhino.
 
 ### Day4
-####Design using Rhinos
+####Design using Rhinoceros
 
 Today was completely for Rhinoceros,Luciano taught us before learning individual tools, we will be acquainted with the Rhino interface.He said these following exercises examine the interface elements used in Rhino: the Rhino window, viewports, menus, toolbars, and dialog boxes.  He gave a lecture about each and every commands we can  use to design and, we got our first assignment using rhinos as well ...
 
 he shared a list of commands to do this assignment via slack.
 
 Rhino Homework 1!
-1.Polygon
-2.Spiral
-3.Cylinder
-​4.Polyline or Line
-5.Sweep1
-​6.Sweep2
-7.Bounding Box
-​6.Boolean Difference
-ho god....it took almost 4 hours to complete this design(my first work in rhinos.....!!!)
+1. Polygon
+2. Spiral
+3. Cylinder
+​4. Sweep1
+​6. Bounding Box
+​7. Boolean Difference
+ho god....it took almost 4 hours to complete this design(my first work in rhinoceros.....!!!)
 
 ![](img/rhino.png)
+
   
 
 
 
-## 
+
 
 
 
