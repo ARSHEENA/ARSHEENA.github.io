@@ -11,13 +11,13 @@ Recently I discovered this awsome world of Fablab and Fab Academy, I was fascina
 
 ## Link to program weeks
 
-Link to WEEK1 [visit WEEK1!](week1.html)
+[visit WEEK1!](week1.html)
 
-Link to WEEK2 [visit WEEK2!](week2.html)
+[visit WEEK2!](week2.html)
 
-LInk to WEEK3 [visit WEEK3!](week3.html)
+[visit WEEK3!](week3.html)
 
-Link to WEEK4 [visit WEEK4!](week4.html)
+[visit WEEK4!](week4.html)
 
 
 

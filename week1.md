@@ -66,8 +66,24 @@ Mr.Luciano asked us to develop a website to document our each and every activiti
 ###Day3
 
 Ubuntu installation continue...
-Y
-esterday it was not installed in many of the computers. so today also the day started off installing linux , updating it etc.It took  almost 2 hours \ get the linux installed in all computers. 
+Yesterday it was not installed in many of the computers. so today also the day started off installing linux , updating it etc.It took  almost 2 hours get the linux installed in all computers. 
+
+####CAD-Computer Aided Design
+
+Luciano introduced CAD(Computer Aided design),and how we can use a Computer-aided design (CAD)in the creation, modification, analysis, or optimization of a design,importance of CAD during Fab Academy.
+
+Computer-aided design (CAD) is the use of computer programs to create two- or three-dimensional (2D or 3D) graphical representations of physical objects. CAD software may be specialized for specific applications. CAD is widely used for computer animation and special effects in movies, advertising, and other applications where the graphic design itself is the finished product. CAD is also used to design physical products in a wide range of industries, where the software performs calculations for determining an optimum shape and size for a variety of product and industrial design applications.
+
+Luciano showed us different CAD softwares and he suggested to use Rhinoceros(for Windows),Rhino can create, edit, analyze, and translate NURBS curves, surfaces, and solids in Windows. There are no limits on complexity, degree, or size.
+
+He gave a brief description about commands in Rhino and showed how to design a mould using Rhino.
+
+### Day4
+####Design using Rhinos
+
+Today was completely for Rhinoceros,Luciano taught us each and every command using to design and gave an assignment,
+
+
   
 
 
