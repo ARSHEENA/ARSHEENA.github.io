@@ -1,10 +1,11 @@
 # WEEK 2
 
-EXTREME MACHINES Week!!! 
-horrible day
+EXTREME MACHINES WEEK!!!!!!!!!
 
-## DAY 1
+This week was all about digital fabrication equipments we are using in fablab to build, code, solder, design pretty much anything they can think of(Vinyl cutter,PCB Milling Modella,Electronics workbench,Laser cutter,3D printer,shopbot,Molding and casting)
+### DAY 1-Vinyl Cutter-Make your own signs!!!!
 ### Introduction to vinyl cutter
+
 ### working of vinyl cutter
 ### Process of making signs using vinyl cutter
 ### How to make a png file
