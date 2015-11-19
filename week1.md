@@ -1,15 +1,14 @@
 ## WEEK 1
-### DAY 1 -OCT 19 2015 MONDAY
+
 
 ### Introduction
 
 The trainer for the Pre Fab academy Mr.Luciano Betlodi gave a brief introduction about Prefab training,Fab academy course ,subject matter, approach, breadth, and applicability of the course,corse duration,This was followed by a self introductions session.Rest of the day utalised for cleaning and setting up the lab for a good working environment in the coming days as recommended by Luciano.
 
-### DAY 2 
 
 ###  Introduction to Prefab and Fab academy
 
-Morning session started off with introduction about the the working principles that have to be followed while working in Fablab,explanation about the principles followed by MIT,softwares we should use during fab academy,how to use open source,importance of documentation during each and every steps of our assignment or project.
+Luciano started off the session with introduction about the the working principles that have to be followed while working in Fablab,explanation about the principles followed by MIT,softwares we should use during fab academy,how to use open source,importance of documentation during each and every steps of our assignment or project.
 
 Mr.Luciano took us to a virtual tour to show Fab labs in world, various apllications people across the world has developed using the Fablab facility,How virtual class session will take place during Fab Academy.
 
@@ -63,9 +62,9 @@ To communicate with the Fab Academy server in order to clone and communicate wit
 
 Mr.Luciano asked us to develop a website to document our each and every activities of the Pre-FabAcademy,for that he asked to design a website using html5,firs i downloaded a bootstrap free template,as i am not familiar with html5 and i don't have much time i think now its better to use Markdown,Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
 
-###Day3
 
-Ubuntu installation continue...
+
+####Ubuntu installation continue...
 Yesterday it was not installed in many of the computers. so today also the day started off installing linux , updating it etc.It took  almost 2 hours get the linux installed in all computers. 
 
 ####CAD-Computer Aided Design
@@ -78,10 +77,10 @@ Luciano showed us different CAD softwares and he suggested to use Rhinoceros(for
 
 He gave a brief description about commands in Rhino and showed how to design a mould using Rhino.
 
-### Day4
+
 ####Design using Rhinoceros
 
-Today was completely for Rhinoceros,Luciano taught us before learning individual tools, we will be acquainted with the Rhino interface.He said these following exercises examine the interface elements used in Rhino: the Rhino window, viewports, menus, toolbars, and dialog boxes.  He gave a lecture about each and every commands we can  use to design and, we got our first assignment using rhinos as well ...
+This session  was completely for Rhinoceros,Luciano taught us before learning individual tools, we will be acquainted with the Rhino interface.He said these following exercises examine the interface elements used in Rhino: the Rhino window, viewports, menus, toolbars, and dialog boxes.  He gave a lecture about each and every commands we can  use to design and, we got our first assignment using rhinos as well ...
 
 he shared a list of commands to do this assignment via slack.
 

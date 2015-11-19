@@ -1,6 +1,6 @@
 # WEEK 4
 
-## DAY 1
+
 
 ### KOKOPELLI INSTALLATION
 Kokopelli is a software tool for computer-aided design and manufacturing,an opensource tool the design the PCBs,2D and 3D models can described as Python scripts
@@ -86,7 +86,7 @@ Mr.Francisco gave a tutorial about the fuctions in kokopelli to add a component 
 
 
 
-## DAY 2
+
 ### clean up the lab
 Second day of this week started off cleaning up the lab ,When it comes to cleaning and organizing ,it became quiet fun.
 
@@ -119,10 +119,10 @@ Added a LED,RESISTOR AND BUTTON in using KOKOPELLI
 
 
 
-## DAY 3
+
 ## Milling hello.ftdi.44
 ## Arudino 1.6.6 Attiny 
-## DAY 4
+
 
 
 

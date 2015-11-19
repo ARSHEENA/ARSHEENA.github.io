@@ -69,6 +69,8 @@ If you haven't already,  to put a box, oval or circle around your image to make 
 Check the display. It shoulde say Sheer unloaded intil you engage the pressure roller. Then you will need to use the down arrow to tell the machine you have loaded a piece or a roll. If you choose piece, the cutter head will move sideways, measure the space between the rollers, then it will move the piece out, the back in, then to its original position. This process used the 'eyes' to measure the height of the piece. you then should be able to see the readout on the display of the pieces measurements.  
 
 ![](img/display.JPG)
+
+
  Press the Cut button on the icon bar.
 
 The cutter head should then move side to side and the vinyl should move back and forth.
@@ -81,17 +83,17 @@ There is a groove on the front of the machine. Use a razor knife in this groove 
 ####http://www.instructables.com/id/Vinyl-Cutting-for-begginers/
 
 
-## DAY 2
+
 ### Introduction to PCB MILLING and PCB designing
 ###
-## DAY 3
+
 ### Introduction to FAB ISP
 ### FAB ISP PCB DESIGNING using 3D Plotter  
 ### Soldering FAB ISP
 
 This is my first soldering experiance, Soldering is the process of using a filler material (solder) to fix components in pcb sheet. Soldering occurs at relatively low temperatures (around 400 degrees Fahrenheit) as compared to brazing and welding, which actually melt and fuse the materials themselves at higher temperatures. In soldering the filler material becomes liquid, coats the pieces it is brought into contact with, and is then allowed to cool. As the solder cools it hardens, and the two materials are joined. Soldering is a quick way to join many types of materials, from copper pipe to stained glass. It creates an electrically conductive strong bond between components that can be re-heated (desoldered) if you should ever want to disconnect two items joined together. It's great for joining electrical components and wires and is used in just about everything electronic. 
 
-## DAY 4
+
 ### Programming FAB ISP
-## Day 5
+
 ### tried to design a ring using Rhinoceros
