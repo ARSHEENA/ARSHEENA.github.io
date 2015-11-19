@@ -11,8 +11,7 @@
 <h1 id="week-4">WEEK 4</h1>
 <h3 id="kokopelli-installation">KOKOPELLI INSTALLATION</h3>
 <p>Kokopelli is a software tool for computer-aided design and manufacturing,an opensource tool the design the PCBs,2D and 3D models can described as Python scripts</p>
-<p>I am new to Kokopelli and starting out right in the kokopelli for UBUNTU version 14.04.Our trainer for this week Mr.Franisco helped me since begining,</p>
-<p>-Download KOKO-RETRO ZIP from the link -exctracted it open the folder koko-retro</p>
+<p>I am new to Kokopelli and starting out right in the kokopelli for UBUNTU version 14.04.Our trainer for this week Mr.Franisco helped me since begining,first of all i downloaded KOKO-RETRO ZIP from the link -exctracted it open the folder koko-retro</p>
 <h3 id="open-terminal-use-the-following-instruction">Open Terminal-Use the following instruction</h3>
 <ul>
 <li><code>make clean</code></li>
@@ -24,8 +23,7 @@
 <ul>
 <li><code>./kokopelli -r</code></li>
 </ul>
-<p>Error occured- No output</p>
-<p>the code was to draw a circle, but there were no circle as output.</p>
+<p>the code was to draw a circle, but there were no circle as output,Error occured- No output</p>
 <div class="figure">
 <img src="img/error.png" alt="" />
 
@@ -36,11 +34,10 @@
 
 </div>
 <h2 id="solution">Solution</h2>
-<p>Refer-&quot;github-mkeeter /kokopelli/wiki/installing&quot;</p>
-<p>We should install some python libraries already in pc to run Kokopelli</p>
-<p>The required Python libraries are available through pip.</p>
-<pre><code>sudo pip install numpy PyOpenGL PyOpenGL_accelerate</code></pre>
-<p>Again tried to open Kokopelli</p>
+<p>Francisco insisted to efer-&quot;github-mkeeter /kokopelli/wiki/installing&quot;,now i got the solution,that is,We should install some python libraries already in pc to run Kokopelli</p>
+<p>and i got the required Python libraries are available through pip.</p>
+<p>`sudo pip install numpy PyOpenGL PyOpenGL_accelerate``</p>
+<p>Again i tried to open Kokopelli</p>
 <p>open terminal</p>
 <p>use the command 'sudo ./kokpelli -r</p>
 <p>OopS.....Still no oputput....</p>
@@ -50,7 +47,7 @@
 </div>
 <p>To troubleshoot-referred http://kokompe.cba.mit.edu/-Downloads</p>
 <p>I hope i can solve this problem by using following commands</p>
-<pre><code>make install -this one will copy all executables and scripts to /usr/local/bin.</code></pre>
+<p><code>make install</code> -this one will copy all executables and scripts to /usr/local/bin.</p>
 <p>Alternatively, you can add the bin folder to your path. To do this, add the line <code>*</code>export PATH=fab/bin:$PATH`</p>
 <p>to ~/.bashrc, with fab/bin replaced by the location of the bin directory.</p>
 <p>Finally it worked!!!!............i got the desired output...</p>
@@ -66,9 +63,9 @@
 <img src="img/lll.png" alt="" />
 
 </div>
-<p>Mr.Francisco gave a tutorial about the fuctions in kokopelli to add a component which we need,wire the component and allign the pcb.</p>
+<p>Mr.Francisco gave a tutorial about the fuctions in kokopelli to add a component which we need,wire the component and allign the pcb,step by step tutorial to do add a component.</p>
 <h3 id="clean-up-the-lab">clean up the lab</h3>
-<p>Second day of this week started off cleaning up the lab ,When it comes to cleaning and organizing ,it became quiet fun.</p>
+<p>Second day of this week started off cleaning up the lab to create a better and comfortable working environment ,When it comes to cleaning and organizing ,it became quiet fun.</p>
 <h3 id="leveling-3d-printer">Leveling 3d printer</h3>
 <p>Maintaining a level print bed on 3D Printer is very important. High quality prints and reliable printing depend on a level bed, particularly at high resolutions. Mr.Francisco explained why it's so important, how to achieve it, and what we should do if we just can't get there with the printer.</p>
 <p>Since the bed is leveled in relation to the plane of relative x-y motion of the nozzle , the nozzle should be consistent height above all points on the bed. This is a precise adjustment that benefits from great care and attention. The frequency with which will need to perform a bed leveling is dependent largely on our printer's design, how careful when we removing parts, and how often you use the printer.</p>
