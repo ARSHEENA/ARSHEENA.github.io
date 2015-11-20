@@ -123,7 +123,7 @@ to create a design layout we can use softwares like Eagle,Kokopelli ,the file wi
 
 [hello.ISP.44.traces.png](http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png)
 
-![](img/13.png)![](img/cutout.png)
+![](img/131.png)        ![](img/1312.png)
 
 Downloaded fab isp labelled diagram from 
 
