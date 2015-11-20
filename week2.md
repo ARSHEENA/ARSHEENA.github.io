@@ -150,10 +150,72 @@ after milling the traces,next step was to cut the pcb from copper board ,for tha
 
 This is my first soldering experiance, Soldering is the process of using a filler material (solder) to fix components in pcb sheet. Soldering occurs at relatively low temperatures (around 400 degrees Fahrenheit) as compared to brazing and welding, which actually melt and fuse the materials themselves at higher temperatures. In soldering the filler material becomes liquid, coats the pieces it is brought into contact with, and is then allowed to cool. As the solder cools it hardens, and the two materials are joined. Soldering is a quick way to join many types of materials, from copper pipe to stained glass. It creates an electrically conductive strong bond between components that can be re-heated (desoldered) if you should ever want to disconnect two items joined together. It's great for joining electrical components and wires and is used in just about everything electronic.
 
- 
+To solder the FAB ISP i downloaded the fab isp labelled board diagram from this link so that i can see what components you need to and where to place them on the board.
+
+[http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!](link.html)
+
+i listed all the components required based on above labelled diagram
 
 
+    1 ATTiny 44 microcontroller
+    1 Capacitor 1uF
+    2 Capacitor 10 pF
+    2 Resistor 100 ohm
+    1 Resistor 499 ohm
+    1 Resistor 1K ohm
+    1 Resistor 10K
+    one 6 pin header
+    1 USB connector
+    2 jumpers - 0 ohm resistors
+    1 Cystal 20MHz
+    two Zener Diode 3.3 V
+    one usb mini cable
+    one ribbon cable
+    two 6 pin connectors
+    
+![](img/comp.png)
+    
+####stuffs i used for soldering
 
+1 .Solder
+
+![](img/solder.png)
+    
+
+2 .soldering iron
+
+![](img/irron.png)
+    
+
+3 .Heat gun (to desolder any component)
+
+As my instructor luciano insisted i started with small components like resistors,capacitors, If you haven't soldered before, it's probably good to practice with the smaller components (e.g. resistors and capacitors) before trying the microcontroller.
+
+The USB connector was  probably the hardest, because the traces are so narrow. I did the ISP header at the end, so it didn't get in the way when i was trying to solder other components. Most of the components was able to oriented either way, with the exception of the microcontroller (the circle marking pin 1 should be in the lower left) and the zener diodes,i forgot to take photographs during soldering,as we have got only 1 soldeing unit it was quiet busy during soldering process....
+here is my fabisp after soldering....
+
+![](img/fab2.png)
+
+Troubleshooting Short Circuits:
+
+To find soldering errors,i used digital microscope to do a visual inspection of the board and reflow any solder joints that look cold (not shiny and smooth).The mini USB header wasn't in a good form,so i had to resolder it.
+
+    Then, used multimeter and check all the connections to make sure that:
+    - power and ground are not connected
+    - there is not a short on the power line.
 
 ### Programming FAB ISP
+
+This was quiet intresting,programming FAB ISP,To use FabISP as an ISP, it has to program first,To do this, i needed another (programmed) FabISP, some other in-system programmer (like an AVRISP mkII) or serial cable and dasa (level convertor) board.I used one of my collegues FABISP to program ATtiny44 in my FABISP.
+
+As per the tutorial i closed SJ1 (the solder jumper near the microcontroller,after programming i desoldered it) .Connected the 6 pin cable of the other programmer to my FabISP, being sure to orient it correctly (pin 1 to pin 1). You'll also need to provide power to your FabISP. You can do this by connecting it to your computer with a USB cable, or, if you're using another FabISP, by closing the SJ2 jumper on both boards. 
+
+ 
+
+![](img/fabprogram1.png)
+
+
+    
+
+
 

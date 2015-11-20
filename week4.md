@@ -1,7 +1,5 @@
 # WEEK 4
 
-
-
 ### KOKOPELLI INSTALLATION
 Kokopelli is a software tool for computer-aided design and manufacturing,an opensource tool the design the PCBs,2D and 3D models can described as Python scripts
 
@@ -35,7 +33,7 @@ Francisco insisted to efer-"github-mkeeter /kokopelli/wiki/installing",now i got
 
 and i got the required Python libraries are available through pip.
 
- `sudo pip install numpy PyOpenGL PyOpenGL_accelerate``
+`sudo pip install numpy PyOpenGL PyOpenGL_accelerate`
 
 Again i tried to open Kokopelli
 
@@ -87,20 +85,53 @@ Second day of this week started off cleaning up the lab to create a better and c
 
 
 
-### Leveling 3d printer
+### Leveling 3d printer tutorial by Frncisco
 
 Maintaining a level print bed on 3D Printer is very important.  High quality prints and reliable printing depend on a level bed, particularly at high resolutions. Mr.Francisco explained why it's so important, how to achieve it, and what we should do  if we just can't get there with the printer.
 
-Since the bed is leveled in relation to the plane of relative x-y motion of the nozzle , the nozzle should be consistent height above all points on the bed. This is a precise adjustment that benefits from great care and attention. The frequency with which will need to perform a bed leveling is dependent largely on our printer's design, how careful when we removing parts, and how often you use the printer.
+Since the bed is leveled in relation to the plane of relative x-y motion of the nozzle , the nozzle should be consistent height above all points on the bed. This is a precise adjustment that benefits from great care and attention. to make sure uniform distance between the nozzle and bed we used a thick paper to seperate that tip from the bed.
+
+The frequency with which will need to perform a bed leveling is dependent largely on our printer's design, how careful when we removing parts, and how often you use the printer.
+
+![](img/level.png)
+
+Adjusting 3d printer filament pusher-a poorly adjusted or over tightened filament pushe can have adverse effects on our prints .
+
+
+![](img/3d.png)
+
+
+
 
 
 
 
 ### 3D printer assignment
 
-Designed a clip for 3D printer meterial and printed it.
+Print a clip for 3D printer meterial ,Francisco gave me a design to print a clip for 3d printer meteial and asked to print it.
 
-## Design hello.ftdi.44 in Kokopelli
+Cura software
+
+Opened the image in Cura->selected Normal print->selected layers->then uploaded the image...next step was levelling  3d printer,then fed the design which i have to Ultimaker2,
+
+After that i uploaded the image to Ultimaker2
+
+![](img/print.png)
+
+![](img/print2.png)
+
+3d printer started printing.....i wanted to make 10 clips...it took 2 hours to complete the print...
+
+![](img/clip1.png)
+
+the process going on smoothly...here i got 10 numbers of the clip
+
+![](img/print5.png)
+
+this one is good...now i can use it to clip the filament coils.
+
+
+### Design hello.ftdi.44 in Kokopelli
 
 Added a LED,RESISTOR AND BUTTON in using KOKOPELLI
 
