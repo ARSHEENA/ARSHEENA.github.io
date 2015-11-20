@@ -121,7 +121,7 @@ This session was about FAB Insystem Programmer, The FabISP is an in-system progr
 ####Fab ISP design layout 
 to create a design layout we can use softwares like Eagle,Kokopelli ,the file will be .png format,here is Fab ISP design layout downloaded from this following link,Mr.Luciano shared the link via slack,
 
-[http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png!](link2.html)
+[http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png!](http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png!)
 
 ![](img/13.png)
 
@@ -129,7 +129,7 @@ to create a design layout we can use softwares like Eagle,Kokopelli ,the file wi
 
 Downloaded fab isp labelled diagram from 
 
-[http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!](link.html)
+[http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!](http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!)
 
 ![](img/label.png)
 
@@ -152,7 +152,7 @@ This is my first soldering experiance, Soldering is the process of using a fille
 
 To solder the FAB ISP i downloaded the fab isp labelled board diagram from this link so that i can see what components you need to and where to place them on the board.
 
-[http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!](link.html)
+[http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!](http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!)
 
 i listed all the components required based on above labelled diagram
 
@@ -239,7 +239,7 @@ to do programming the board needs power ,to make sure that the mini USB connecto
 
 next step was editing the make file,for that i used the command
 
-`gedit Makefile`
+* `gedit Makefile`
 
 <center>![](img/fabprogram1.png)</center>
  
