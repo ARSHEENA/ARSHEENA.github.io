@@ -89,7 +89,7 @@ Second day of this week started off cleaning up the lab to create a better and c
 
 Maintaining a level print bed on 3D Printer is very important.  High quality prints and reliable printing depend on a level bed, particularly at high resolutions. Mr.Francisco explained why it's so important, how to achieve it, and what we should do  if we just can't get there with the printer.
 
-Since the bed is leveled in relation to the plane of relative x-y motion of the nozzle , the nozzle should be consistent height above all points on the bed. This is a precise adjustment that benefits from great care and attention. to make sure uniform distance between the nozzle and bed we used a thick paper to seperate that tip from the bed.
+Since the bed is leveled in relation to the plane of relative x-y motion of the nozzle , the nozzle should be consistent height above all points on the bed. This is a precise adjustment that benefits from great care and attention. to make sure uniform distance between the nozzle and bed we used a thick paper to seperate that tip from the bed.We passed this paper under the nozzle and if it is too encumbered we  moved the platform away from the nozzle a little in that area. Wen it slides under the nozzle without resistance,we raised the platform towards the nozzle.  The trick here is knowing the "right" amount of resistance.  
 
 The frequency with which will need to perform a bed leveling is dependent largely on our printer's design, how careful when we removing parts, and how often you use the printer.
 
@@ -116,7 +116,7 @@ Opened the image in Cura->selected Normal print->selected layers->then uploaded 
 
 After that i uploaded the image to Ultimaker2
 
-![](img/print.png)
+<center>![](img/print.png)</center>
 
 ![](img/print2.png)
 

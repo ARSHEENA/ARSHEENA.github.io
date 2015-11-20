@@ -208,11 +208,22 @@ To find soldering errors,i used digital microscope to do a visual inspection of 
 
 This was quiet intresting,programming FAB ISP,To use FabISP as an ISP, it has to program first,To do this, i needed another (programmed) FabISP, some other in-system programmer (like an AVRISP mkII) or serial cable and dasa (level convertor) board.I used one of my collegues FABISP to program ATtiny44 in my FABISP.
 
-As per the tutorial i closed SJ1 (the solder jumper near the microcontroller,after programming i desoldered it) .Connected the 6 pin cable of the other programmer to my FabISP, being sure to orient it correctly (pin 1 to pin 1). You'll also need to provide power to your FabISP. You can do this by connecting it to your computer with a USB cable, or, if you're using another FabISP, by closing the SJ2 jumper on both boards. 
+As per the tutorial i closed SJ1 (the solder jumper near the microcontroller,after programming desoldered it to use my FABISP as a programmer) .Connected the 6 pin cable of the other programmer to my FabISP, made sure to orient it correctly (pin 1 to pin 1). to provide power to my FabISP used an USB cable connected to the computer .
 
+To programm the FABISP first of all we had to install two softwares 
+
+* Avrdude (for programming AVR microcontrollers)
+* GCC (to compile C code)
+
+
+
+
+
+
+<center>![](img/fabprogram1.png)</center>
  
 
-![](img/fabprogram1.png)
+
 
 
     
