@@ -215,10 +215,31 @@ To programm the FABISP first of all we had to install two softwares
 * Avrdude (for programming AVR microcontrollers)
 * GCC (to compile C code)
 
+to install Get avrdude / GCC software and dependencies i used the following commands
 
+* `sudo apt-get install flex byacc bison gcc libusb-dev avrdude   `
 
+* `sudo apt-get install gcc-avr` 
 
+* `sudo apt-get install libc6-dev`
 
+next step was download and unzip the firmware .for that i moved to the desktop then typed the below command
+
+* `cd ~/Desktop` 
+   
+Downloaded the firmware from the Fab Academy Electronics Production page     
+
+[wget http://academy.cba.mit.edu/classes/embedded_programming/firmware.zip ](link3)
+
+ to Unzip the firmware
+
+* `unzip firmware.zip`
+
+to do programming the board needs power ,to make sure that the mini USB connector for the FabISP  trying to program is plugged into my computer AND that a separate pogramer is plugged in to the 6-pin programming header. (i used another working FabISP )
+
+next step was editing the make file,for that i used the command
+
+* `gedit Makefile`
 
 <center>![](img/fabprogram1.png)</center>
  

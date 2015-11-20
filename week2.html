@@ -179,6 +179,27 @@ two 6 pin connectors</code></pre>
 <li>Avrdude (for programming AVR microcontrollers)</li>
 <li>GCC (to compile C code)</li>
 </ul>
+<p>to install Get avrdude / GCC software and dependencies i used the following commands</p>
+<ul>
+<li><p><code>sudo apt-get install flex byacc bison gcc libusb-dev avrdude</code></p></li>
+<li><p><code>sudo apt-get install gcc-avr</code></p></li>
+<li><p><code>sudo apt-get install libc6-dev</code></p></li>
+</ul>
+<p>next step was download and unzip the firmware .for that i moved to the desktop then typed the below command</p>
+<ul>
+<li><code>cd ~/Desktop</code></li>
+</ul>
+<p>Downloaded the firmware from the Fab Academy Electronics Production page</p>
+<p><a href="link3">wget http://academy.cba.mit.edu/classes/embedded_programming/firmware.zip</a></p>
+<p>to Unzip the firmware</p>
+<ul>
+<li><code>unzip firmware.zip</code></li>
+</ul>
+<p>to do programming the board needs power ,to make sure that the mini USB connector for the FabISP trying to program is plugged into my computer AND that a separate pogramer is plugged in to the 6-pin programming header. (i used another working FabISP )</p>
+<p>next step was editing the make file,for that i used the command</p>
+<ul>
+<li><code>gedit Makefile</code></li>
+</ul>
 <center>
 <img src="img/fabprogram1.png" alt="" />
 </center>
