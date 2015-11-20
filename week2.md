@@ -40,7 +40,7 @@ next check the display. It shoulde say Sheer unloaded intil you engage the press
 
 Opened the terminal,as Fab modules are already installed ,we can use the command fab,then i got this window
 
-![](img/scr.png)
+![](img/scrr.png)
 
 
 the iselected the input format as image.png,output process as roland vinyl,the gave with work flow.
@@ -68,8 +68,19 @@ There is a groove on the front of the machine.There was enough material left,now
  
 ![](img/modella.png)
 
+controls on the Roland Modela MDX-20
 
- 
+1 .The Green power button, well controls the power.
+
+2 .View, moves the cutting head away and the base plate towards you so that you can place/see your cutting surface.
+    
+3 .Tool Up, moves the cutting head up.
+    
+4 .Tool Down, moves the cutting head down.
+
+![](img/control.png)
+
+
 During seting up the pcb milling board i used a double sided tape to fix the board in place,this is how it look like after setting up the milling board,Mr.Luciano insisted to preffer FR-1 copper boards(epoxy paper) as which is eco friendly than FR-4.In the beginning i started by taking the dimensions of milling bed to make sure that the boundaries don't collide with any of the parts of the machine.
 
 The top layer of this is the sacrifice layer. It is only 3 mm deep and contains the holes for the screws to penetrate from the T clamps through it to the bolts in the bottom layer.
@@ -97,22 +108,52 @@ First of all i turned the Modela off and then on again to make it forget its pre
 
 Zeroing
 
-To do this step moved the endmill over the board so that i can lower it to the copper. Used the rml_move tool, sending it the x and y you used as the origin when generating rml file above,made Xmin and Ymin.Next sept was setting up the Z axis manually,for that i lowered  the bit as close as get to the  copper plate but without touching it by keeping the down button pressed.when press the button once, the head moved the bit down exactly 7 mills i think...once the bit got resting just on the top of the milling surface,i loosened the set screws again using Allen key and pushed the bit all the way onto the copper,now i can hear a small tick, now i tightened the screws again.  
-    
-    
-    A PC with fabmodules up and running.
-    
-    
+To do this step moved the endmill over the board so that i can lower it to the copper. Used the rml_move tool, sending it the x and y you used as the origin when generating rml file above,made Xmin and Ymin.Next sept was setting up the Z axis manually,for that i lowered  the bit as close as get to the  copper plate but without touching it by keeping the down button pressed.when press the button once, the head moved the bit down exactly 7 mills i think...once the bit got resting just on the top of the milling surface,i loosened the set screws again using Allen key and pushed the bit all the way onto the copper,now i can hear a small tick, now i tightened the screws again.
+
+now the mechine is all set to milling,next step is loading a png file and start milling.This step i hope i can do when i make FAB ISP PCB. 
+ 
 ### Introduction to FAB ISP
 
 This session was about FAB Insystem Programmer, The FabISP is an in-system programmer for AVR microcontrollers, designed for production within a FabLab. That is, it allows us to program the microcontrollers on other boards we make, using nothing but a USB cable and 6-pin IDC to 6-pin IDC cable. It's based on the USBtiny and V-USB firmwares, which allow the ATtiny44 to perform USB communication in software. Programming can be done through avrdude. The schematic (PDF) is super simple: USB connector, ATtiny44, and 6-pin ISP header, with assorted passive components. I started with the Eagle files for the USBtinyISP, although there's almost nothing left of it. Most of the parts for the FabISP are in the FabLab inventory. Exceptions include the Mini-B USB connector (SparkFun, Digi-Key), 12 MHz crystal (Digi-Key), and 18 pF capacitors for the crystal (Digi-Key). 
 
-### Assignment-FAB ISP PCB DESIGNING using Modella 
+### Assignment-FAB ISP PCB milling using Modella
+ 
+####Fab ISP design layout 
+to create a design layout we can use softwares like Eagle,Kokopelli ,the file will be .png format,here is Fab ISP design layout downloaded from this following link,Mr.Luciano shared the link via slack,
+
+[http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png!](link2.html)
+
+![](img/13.png)
+
+![](img/cutout.png)
+
+Downloaded fab isp labelled diagram from 
+
+[http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!](link.html)
+
+![](img/label.png)
+
+next step was loading the png using fab modules,The fab modules provide a set of software tools for personal fabrication, intended for use with machines common to fab labs.After installing the Fab modules, next select input and select file type as “.png” and the output as “Roland Modela MDX-20”.
+then loaded the png file,select make path,put the the offse value as 4,diameter as 0.4,now i am able to see the path thr0ugh which milling going to happen,put x and y as 20 to move the drilling bit and set the the position,next manually adjusted the z axis by pressing the down arrow,selected the bit 1/64 as i want to mill the traces first,
+
+![](img/mill.png)
+
+Now its all ready to go,Click on the “Make .rml” button and send the machine file to the Modela by clicking on “Send It!”.. After which the machine will start milling and removing copper from around the traces.
+
+![](img/milli2.png)
+
+after milling the traces,next step was to cut the pcb from copper board ,for that i, had to change the bit first ,now i chose 1/32 bit loaded the cutout image then repeated the steps to set the bit and xyz plane,made the path,set diameter and offset,now pressed the make rml,now its ready to mill,the pressed start milling....This is my fabisp pcb after milling,even though it doesn't look perfect...its fine..
+
+![](img/fabisp.png)
+
 ### Soldering FAB ISP
 
-This is my first soldering experiance, Soldering is the process of using a filler material (solder) to fix components in pcb sheet. Soldering occurs at relatively low temperatures (around 400 degrees Fahrenheit) as compared to brazing and welding, which actually melt and fuse the materials themselves at higher temperatures. In soldering the filler material becomes liquid, coats the pieces it is brought into contact with, and is then allowed to cool. As the solder cools it hardens, and the two materials are joined. Soldering is a quick way to join many types of materials, from copper pipe to stained glass. It creates an electrically conductive strong bond between components that can be re-heated (desoldered) if you should ever want to disconnect two items joined together. It's great for joining electrical components and wires and is used in just about everything electronic. 
+This is my first soldering experiance, Soldering is the process of using a filler material (solder) to fix components in pcb sheet. Soldering occurs at relatively low temperatures (around 400 degrees Fahrenheit) as compared to brazing and welding, which actually melt and fuse the materials themselves at higher temperatures. In soldering the filler material becomes liquid, coats the pieces it is brought into contact with, and is then allowed to cool. As the solder cools it hardens, and the two materials are joined. Soldering is a quick way to join many types of materials, from copper pipe to stained glass. It creates an electrically conductive strong bond between components that can be re-heated (desoldered) if you should ever want to disconnect two items joined together. It's great for joining electrical components and wires and is used in just about everything electronic.
+
+ 
+
+
 
 
 ### Programming FAB ISP
 
-### tried to design a ring using Rhinoceros
