@@ -94,21 +94,13 @@
 <h3 id="assignment-fab-isp-pcb-milling-using-modella">Assignment-FAB ISP PCB milling using Modella</h3>
 <h4 id="fab-isp-design-layout">Fab ISP design layout</h4>
 <p>to create a design layout we can use softwares like Eagle,Kokopelli ,the file will be .png format,here is Fab ISP design layout downloaded from this following link,Mr.Luciano shared the link via slack,</p>
-<p><a href="http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png!" class="uri">http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png!</a></p>
-<div class="figure">
-<img src="img/13.png" alt="" />
-
-</div>
-<div class="figure">
-<img src="img/cutout.png" alt="" />
-
-</div>
+<p><a href="http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png">hello.ISP.44.traces.png</a></p>
+<p><img src="img/13.png" alt="" /><img src="img/cutout.png" alt="" /></p>
 <p>Downloaded fab isp labelled diagram from</p>
-<p><a href="http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!" class="uri">http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!</a></p>
-<div class="figure">
+<p><a href="http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png">hello.ISP.44.png exterior</a></p>
+<center>
 <img src="img/label.png" alt="" />
-
-</div>
+</center>
 <p>next step was loading the png using fab modules,The fab modules provide a set of software tools for personal fabrication, intended for use with machines common to fab labs.After installing the Fab modules, next select input and select file type as “.png” and the output as “Roland Modela MDX-20”. then loaded the png file,select make path,put the the offse value as 4,diameter as 0.4,now i am able to see the path thr0ugh which milling going to happen,put x and y as 20 to move the drilling bit and set the the position,next manually adjusted the z axis by pressing the down arrow,selected the bit 1/64 as i want to mill the traces first,</p>
 <div class="figure">
 <img src="img/mill.png" alt="" />
@@ -120,10 +112,9 @@
 
 </div>
 <p>after milling the traces,next step was to cut the pcb from copper board ,for that i, had to change the bit first ,now i chose 1/32 bit loaded the cutout image then repeated the steps to set the bit and xyz plane,made the path,set diameter and offset,now pressed the make rml,now its ready to mill,the pressed start milling....This is my fabisp pcb after milling,even though it doesn't look perfect...its fine..</p>
-<div class="figure">
+<center>
 <img src="img/fabisp.png" alt="" />
-
-</div>
+</center>
 <h3 id="soldering-fab-isp">Soldering FAB ISP</h3>
 <p>This is my first soldering experiance, Soldering is the process of using a filler material (solder) to fix components in pcb sheet. Soldering occurs at relatively low temperatures (around 400 degrees Fahrenheit) as compared to brazing and welding, which actually melt and fuse the materials themselves at higher temperatures. In soldering the filler material becomes liquid, coats the pieces it is brought into contact with, and is then allowed to cool. As the solder cools it hardens, and the two materials are joined. Soldering is a quick way to join many types of materials, from copper pipe to stained glass. It creates an electrically conductive strong bond between components that can be re-heated (desoldered) if you should ever want to disconnect two items joined together. It's great for joining electrical components and wires and is used in just about everything electronic.</p>
 <p>To solder the FAB ISP i downloaded the fab isp labelled board diagram from this link so that i can see what components you need to and where to place them on the board.</p>

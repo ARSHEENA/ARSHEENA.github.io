@@ -121,18 +121,16 @@ This session was about FAB Insystem Programmer, The FabISP is an in-system progr
 ####Fab ISP design layout 
 to create a design layout we can use softwares like Eagle,Kokopelli ,the file will be .png format,here is Fab ISP design layout downloaded from this following link,Mr.Luciano shared the link via slack,
 
-[http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png!](http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png!)
+[hello.ISP.44.traces.png](http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png)
 
-![](img/13.png)
-
-![](img/cutout.png)
+![](img/13.png)![](img/cutout.png)
 
 Downloaded fab isp labelled diagram from 
 
-[http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!](http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!)
+[hello.ISP.44.png exterior](http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png)
 
-![](img/label.png)
-
+ <center>![](img/label.png)</center>
+ 
 next step was loading the png using fab modules,The fab modules provide a set of software tools for personal fabrication, intended for use with machines common to fab labs.After installing the Fab modules, next select input and select file type as “.png” and the output as “Roland Modela MDX-20”.
 then loaded the png file,select make path,put the the offse value as 4,diameter as 0.4,now i am able to see the path thr0ugh which milling going to happen,put x and y as 20 to move the drilling bit and set the the position,next manually adjusted the z axis by pressing the down arrow,selected the bit 1/64 as i want to mill the traces first,
 
@@ -144,7 +142,7 @@ Now its all ready to go,Click on the “Make .rml” button and send the machine
 
 after milling the traces,next step was to cut the pcb from copper board ,for that i, had to change the bit first ,now i chose 1/32 bit loaded the cutout image then repeated the steps to set the bit and xyz plane,made the path,set diameter and offset,now pressed the make rml,now its ready to mill,the pressed start milling....This is my fabisp pcb after milling,even though it doesn't look perfect...its fine..
 
-![](img/fabisp.png)
+<center>![](img/fabisp.png)</center>
 
 ### Soldering FAB ISP
 
