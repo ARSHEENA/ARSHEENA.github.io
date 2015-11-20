@@ -229,7 +229,7 @@ next step was download and unzip the firmware .for that i moved to the desktop t
    
 Downloaded the firmware from the Fab Academy Electronics Production page     
 
-[wget http://academy.cba.mit.edu/classes/embedded_programming/firmware.zip ](link3)
+[wget http://academy.cba.mit.edu/classes/embedded_programming/firmware.zip](wget http://academy.cba.mit.edu/classes/embedded_programming/firmware.zip)
 
  to Unzip the firmware
 
@@ -239,7 +239,7 @@ to do programming the board needs power ,to make sure that the mini USB connecto
 
 next step was editing the make file,for that i used the command
 
-* `gedit Makefile`
+`gedit Makefile`
 
 <center>![](img/fabprogram1.png)</center>
  
