@@ -1,4 +1,7 @@
-                                                       ![](img/logo1.png)
+<div style ="width:800px;">
+
+
+![](img/logo1.png)
 
 
 Welcome to my Prefab academy page, my name is ARSHEENA.E.P , I will use page for updating weekly training ,works,assignments and progress.
@@ -23,4 +26,4 @@ Recently I discovered this awsome world of Fablab and Fab Academy, I was fascina
 
 
 
-
+</div>
