@@ -1,8 +1,23 @@
 pandoc -s -o index.html index.md
+
 pandoc -s -o week1.html week1.md
+
+pandoc -s -o w11.html w11.md
+pandoc -s -o w12.html w12.md
+pandoc -s -o w13.html w13.md
+pandoc -s -o w14.html w14.md
+pandoc -s -o w15.html w15.md
 pandoc -s -o week2.html week2.md
+
 pandoc -s -o week3.html week3.md
+
+
+
 pandoc -s -o week4.html week4.md
+
+
+
+
 git pull
 git add --all
 git commit -m "push"

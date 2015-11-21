@@ -6,17 +6,9 @@
 The trainer for the Pre Fab academy Mr.Luciano Betlodi gave a brief introduction about Prefab training,Fab academy course ,subject matter, approach, breadth, and applicability of the course,corse duration,This was followed by a self introductions session.Rest of the day utalised for cleaning and setting up the lab for a good working environment in the coming days as recommended by Luciano.
 
 
-###  Introduction to Prefab and Fab academy
+###  [Introduction to Prefab and Fab academy](w11.html)
 
-Luciano started off the session with introduction about the the working principles that have to be followed while working in Fablab,explanation about the principles followed by MIT,softwares we should use during fab academy,how to use open source,importance of documentation during each and every steps of our assignment or project.
 
-Mr.Luciano took us to a virtual tour to show Fab labs in world, various apllications people across the world has developed using the Fablab facility,How virtual class session will take place during Fab Academy.
-
-![](img/fabclass.png)
-
-Luciano disussed about digital fabrication,its scope and technology. 
-
-![](img/intro.png)
 
 
 ####  Ubuntu 14.04 installation
