@@ -1,5 +1,5 @@
 
-<div style ="width:800px;" align="center">
+<div style ="width:800px;">
 
 
 ![](img/logo1.png)
