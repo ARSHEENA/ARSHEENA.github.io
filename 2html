@@ -7,7 +7,11 @@ pandoc -s -o w12.html w12.md
 pandoc -s -o w13.html w13.md
 pandoc -s -o w14.html w14.md
 pandoc -s -o w15.html w15.md
+
 pandoc -s -o week2.html week2.md
+
+
+
 
 pandoc -s -o week3.html week3.md
 
