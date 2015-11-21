@@ -1,3 +1,4 @@
+<center>
 <div style ="width:800px;">
 
 
@@ -27,3 +28,4 @@ Recently I discovered this awsome world of Fablab and Fab Academy, I was fascina
 
 
 </div>
+</center>
