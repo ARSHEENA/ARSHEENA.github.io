@@ -1,5 +1,5 @@
-<center>
-<div style ="width:800px;"></center>
+
+<div style ="width:800px;" align="center">
 
 
 ![](img/logo1.png)
@@ -27,5 +27,5 @@ Recently I discovered this awsome world of Fablab and Fab Academy, I was fascina
 
 
 
-<center></div>
-</center>
+</div>
+
