@@ -1,3 +1,4 @@
+<div style ="width:800px;">
 
 ###Vinyl Cutter-Make your own signs!!!!
 
@@ -50,5 +51,5 @@ There is a groove on the front of the machine.There was enough material left,now
 
                             ![](img/last.png)
 
-
+</div>
 
