@@ -11,9 +11,7 @@ pandoc -s -o week2_1.html week2_1.md
 pandoc -s -o week2_2.html week2_2.md
 pandoc -s -o week2_3.html week2_2.md
 
-pandoc -s -o week3_1.html week3_1.md
-
-
+pandoc -s -o week3.html week3.md
 
 pandoc -s -o week4.html week4.md
 
