@@ -2,8 +2,7 @@
 <div style ="width:800px;">
 
 
-![](img/logo1.png)
-
+                           <center>![](img/logo1.png)</center>
 
 Welcome to my Prefab academy page, my name is ARSHEENA.E.P , I will use page for updating weekly training ,works,assignments and progress.
 
@@ -17,13 +16,13 @@ Recently I discovered this awsome world of Fablab and Fab Academy, I was fascina
 
 ## Link to program weeks
 
-[visit WEEK1!](week1.html)
+[WEEK1!](week1.html)
 
-[visit WEEK2!](week2.html)
+[WEEK2!](week2.html)
 
-[visit WEEK3!](week3.html)
+[WEEK3!](week3.html)
 
-[visit WEEK4!](week4.html)
+[WEEK4!](week4.html)
 
 
 
