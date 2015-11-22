@@ -5,6 +5,7 @@
 
 The trainer for the Pre Fab academy Mr.Luciano Betlodi gave a brief introduction about Prefab training,Fab academy course ,subject matter, approach, breadth, and applicability of the course,corse duration,This was followed by a self introductions session.Rest of the day utalised for cleaning and setting up the lab for a good working environment in the coming days as recommended by Luciano.
 
+[Introduction to Prefab and Fab academy](week1.1.html)
 
 
 ## MERCURIAL INSTALLATION
