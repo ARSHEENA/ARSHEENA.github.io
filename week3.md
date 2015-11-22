@@ -1,5 +1,6 @@
 # WEEK 3
-###Assignment week-3D printing
+
+###Pre-fab project week-3D printing
 
 The project was design something productive using antimony then 3d print it,I designed a cup in antimony .it is first time i am using such an awsom 3d design software,antimony is a special type of Computer-Aided Design software.
 With this tool we can program your 3d model, instead of the standard click and drag interface.
