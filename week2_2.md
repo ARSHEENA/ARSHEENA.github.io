@@ -1,8 +1,7 @@
 ### Introduction to PCB milling using Roland Modela MDX-20
 
  This machine is used to make PCBs for digital fabrication,this one  is compatible with most 3d and 2d authoring software, making it ideal for the rapid prototyping of product designs.It becomes an essential part of Fab lab as it can use to  milling of custom circuit boards, and the production of moulds. This Modela can be used on wood, mdf, modeling wax, plaster and FR1 circuit board blanks.
- 
-![](img/modella.png)
+<center>![](img/modella.png)</center>
 
 controls on the Roland Modela MDX-20
 
@@ -14,14 +13,13 @@ controls on the Roland Modela MDX-20
     
 4 .Tool Down, moves the cutting head down.
 
-![](img/control.png)
-
+<center>![](img/control.png)</center>
 
 During seting up the pcb milling board i used a double sided tape to fix the board in place,this is how it look like after setting up the milling board,Mr.Luciano insisted to preffer FR-1 copper boards(epoxy paper) as which is eco friendly than FR-4.In the beginning i started by taking the dimensions of milling bed to make sure that the boundaries don't collide with any of the parts of the machine.
 
 The top layer of this is the sacrifice layer. It is only 3 mm deep and contains the holes for the screws to penetrate from the T clamps through it to the bolts in the bottom layer.
 
-![](img/board.png)
+<center>![](img/board.png)</center>
 
 #### Bits and types
 There are 2 types
@@ -34,7 +32,7 @@ here i preferred 2 flute Ball nose Bit to design my pcb
 
 To mill out the traces of my circuit board i used 1/64th endmill(0.01 inch), and to cut the board from pcb used 1/32 endmill bit.
 
-![](img/bit.png)
+<center>![](img/bit.png)</center>
 
 ####Working 
 
