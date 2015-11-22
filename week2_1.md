@@ -4,9 +4,7 @@
 ### Introduction to vinyl cutter
 Luciano gave an introduction about Roland CAMM-1 Servo vinyl cutter,Usage of Vinyl cutter,steps to make a sign,how to set up the mechine
 
-<center>![](img/vinyl.png)</center>
-
-
+                                ![](img/vinyl.png)
 
 
 ### working of vinyl cutter
@@ -21,8 +19,8 @@ Found out  an image that i want to make into a sticker and made it black and whi
 
 Saved the image as a .png file.The software running the cutter likes to have a jpeg, Scaleable Vector Graphic (.SVG) can work fine as well.
 
-<center>![](img/map.png)</center>
-
+                                ![](img/map.png)
+                                
 ###Setting up
 
 Load the sample piece of vinyl into the machine. 
@@ -33,17 +31,16 @@ next check the display. It shoulde say Sheer unloaded intil you engage the press
 ### Uploading a png file
 
 Opened the terminal,as Fab modules are already installed ,we can use the command fab,then i got this window
-<center>![](img/scrr.png)</center>
-
+                              ![](img/scrr.png)
 
 the iselected the input format as image.png,output process as roland vinyl,the gave with work flow.
 
-<center>![](img/scr.2.png)</center>
+                             ![](img/scr.2.png)
 
 on next window loaded the image,resized it from 200mm to 150 mm,set the offset as 1,selected the option make path,now i can see the path through which the cutting will take place.then selected the option send it...now it starts the sign making process..
 
 
-<center>![](img/make.png)
+                             ![](img/make.png)
 
 The cutter head started move side to side and the vinyl moved back and forth same time.
 
@@ -51,7 +48,7 @@ When the design is cut, used the arrow keys to move the vinyl out of the machine
 
 There is a groove on the front of the machine.There was enough material left,now used razor knife in this groove to cut the piece off. finally i got the image printed,,
 
-<center>![](img/last.png)</center></center>
+                            ![](img/last.png)
 
 
 
