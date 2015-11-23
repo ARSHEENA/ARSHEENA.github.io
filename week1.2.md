@@ -14,8 +14,15 @@ Connected to the internet to get the latest updates while you install Ubuntu
 next step was booting from the pendrive. plugging in the boot able pendrive with Ubuntu 14.04 restart the computer and choose to boot from the pendrive. 
 
  The installation process will began when you clicked the Install Now button.
+ Click on the language option what i  need.Entered your login and password details,
  
 ![](img/ubuntu.png)
 
+
 Ubuntu needs about 4.5 GB to install, so i added a few extra GB to allow for my files.
+
 ![](img/install.png)
+
+
+
+Aftter this restarted my computer and started enjoying Ubuntu!
