@@ -7,6 +7,9 @@ The trainer for the Pre Fab academy Mr.Luciano Betlodi gave a brief introduction
 
 [Introduction to Prefab and Fab academy](week1.1.html)
 
+[Ubuntu 14.04 installation](week1.2.html)
+
+
 
 ## MERCURIAL INSTALLATION
 

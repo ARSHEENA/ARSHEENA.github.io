@@ -2,6 +2,8 @@ pandoc -s -o index.html index.md
 
 pandoc -s -o week1.html week1.md
 
+pandoc -s -o week1.1.html week1.1.md
+
 
 
 pandoc -s -o week2.html week2.md

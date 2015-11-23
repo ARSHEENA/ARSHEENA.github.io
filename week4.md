@@ -78,7 +78,6 @@ its format was quiet intresting,which display an ordered list in two columns, le
 Mr.Francisco gave a tutorial about the fuctions in kokopelli to add a component which we need,wire the component and allign the pcb,step by step tutorial to do add a component.
 
 
-
 ### clean up the lab
 Second day of this week started off cleaning up the lab to create a better and comfortable working environment ,When it comes to cleaning and organizing ,it became quiet fun.
 
@@ -146,6 +145,15 @@ Added a LED,RESISTOR AND BUTTON in using KOKOPELLI
 
 
 ## Milling hello.ftdi.44
+
+The trials and tribulations of generating code: the excitement, the anticipation...
+
+
+Well, it might be a little amateurish, but I've done it. I made some changes today that messed it up, so I learnt a lot fixing it. 
+
+
+
+
 ## Arudino 1.6.6 Attiny 
 
 

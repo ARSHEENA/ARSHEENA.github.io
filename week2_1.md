@@ -6,7 +6,7 @@
 
 Luciano gave an introduction about Roland CAMM-1 Servo vinyl cutter,Usage of Vinyl cutter,steps to make a sign,how to set up the mechine
 
-![](img/vinyl.png)
+                   ![](img/vinyl.png)
 
 
 ### working of vinyl cutter
@@ -21,7 +21,7 @@ Found out  an image that i want to make into a sticker and made it black and whi
 
 Saved the image as a .png file.The software running the cutter likes to have a jpeg, Scaleable Vector Graphic (.SVG) can work fine as well.
 
-![](img/map.png)
+                 ![](img/map.png)
                                 
 ###Setting up
 
