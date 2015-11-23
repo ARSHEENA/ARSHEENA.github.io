@@ -11,6 +11,11 @@ As my system doesn't have enough space and its already in slow condition,i could
 
 Connected to the internet to get the latest updates while you install Ubuntu
 
-Boot from the pendrive. plugging in the boot able pendrive with Ubuntu 14.04 restart the computer and choose to boot from the pendrive. I have to change my boot preferences by hitting the Setup (F12) key while my computer is restarting.
+next step was booting from the pendrive. plugging in the boot able pendrive with Ubuntu 14.04 restart the computer and choose to boot from the pendrive. 
 
-Navigate through the top menu bar and you can find Legacy Boot [Enable] [Disable] Press F10 and Save. Ubuntu opens up next objective is to create three partitions namely /, home and swap area. For / Memory : Primary Ext 24 Allocate space as per your choice (50 GB) For /home Memory: logical Ext 24 Space allocated: 100 GB For swap area Space allocated: 16 GB Install Ubuntu
+ The installation process will began when you clicked the Install Now button.
+ 
+![](img/ubuntu.png)
+
+Ubuntu needs about 4.5 GB to install, so i added a few extra GB to allow for my files.
+![](img/install.png)
