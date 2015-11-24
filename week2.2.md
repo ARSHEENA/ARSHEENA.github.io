@@ -16,11 +16,13 @@ controls on the Roland Modela MDX-20
 
 4 .Tool Down, moves the cutting head down.
 
+
 <center>![](img/control.png)</center>
 
 During seting up the pcb milling board i used a double sided tape to fix the board in place,this is how it look like after setting up the milling board,Mr.Luciano insisted to preffer FR-1 copper boards(epoxy paper) as which is eco friendly than FR-4.In the beginning i started by taking the dimensions of milling bed to make sure that the boundaries don't collide with any of the parts of the machine.
 
 The top layer of this is the sacrifice layer. It is only 3 mm deep and contains the holes for the screws to penetrate from the T clamps through it to the bolts in the bottom layer.
+
 
 <center>![](img/board.png)</center>
 
@@ -37,6 +39,7 @@ here i preferred 2 flute Ball nose Bit to design my pcb
 To mill out the traces of my circuit board i used 1/64th endmill(0.01 inch), and to cut the board from pcb used 1/32 endmill bit.
                  
 <center>![](img/bit.png)</center>
+
                  
 ####Working 
 
