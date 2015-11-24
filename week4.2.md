@@ -22,4 +22,7 @@ the process going on smoothly...here i got 10 numbers of the clip
 
 <center>![](img/print5.png)</center>
 
+
+<center>![](img/clipfinal.png)</center>
+
 this one is good...now i can use it to clip the filament coils.
