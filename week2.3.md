@@ -105,9 +105,7 @@ i listed all the components required based on above labelled diagram
 As my instructor luciano insisted i started with small components like resistors,capacitors, If you haven't soldered before, it's probably good to practice with the smaller components (e.g. resistors and capacitors) before trying the microcontroller.
 
 The USB connector was  probably the hardest, because the traces are so narrow. I did the ISP header at the end, so it didn't get in the way when i was trying to solder other components. Most of the components was able to oriented either way, with the exception of the microcontroller (the circle marking pin 1 should be in the lower left) and the zener diodes,i forgot to take photographs during soldering,as we have got only 1 soldeing unit it was quiet busy during soldering process....
-here is my fabisp after soldering....
 
-![](img/fab2.png)
 
 Troubleshooting Short Circuits:
 
