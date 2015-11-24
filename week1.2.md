@@ -26,3 +26,5 @@ Ubuntu needs about 4.5 GB to install, so i added a few extra GB to allow for my 
 
 
 Aftter this restarted my computer and started enjoying Ubuntu!
+
+</div>
