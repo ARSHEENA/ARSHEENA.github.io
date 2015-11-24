@@ -9,18 +9,25 @@
 </head>
 <body>
 <h3 id="introduction-to-fab-isp">Introduction to FAB ISP</h3>
-<p>This session was about FAB Insystem Programmer The FabISP is an in-system programmer for AVR microcontrollers, designed for production within a FabLab. That is, it allows us to program the microcontrollers on other boards we make, using nothing but a USB cable and 6-pin IDC to 6-pin IDC cable. It's based on the USBtiny and V-USB firmwares, which allow the ATtiny44 to perform USB communication in software. Programming can be done through avrdude. The schematic (PDF) is super simple: USB connector, ATtiny44, and 6-pin ISP header, with assorted passive components. I started with the Eagle files for the USBtinyISP, although there's almost nothing left of it. Most of the parts for the FabISP are in the FabLab inventory. Exceptions include the Mini-B USB connector (SparkFun, Digi-Key), 12 MHz crystal (Digi-Key), and 18 pF capacitors for the crystal (Digi-Key).</p>
+<p>This session was about FAB Insystem Programmer The FabISP is an in-system programmer for AVR microcontrollers, designed for production within a FabLab.</p>
+<p>That is, it allows us to program the microcontrollers on other boards we make, using nothing but a USB cable and 6-pin IDC to 6-pin IDC cable. It's based on the USBtiny and V-USB firmwares, which allow the ATtiny44 to perform USB communication in software. Programming can be done through avrdude.</p>
+<p>The schematic (PDF) is super simple: USB connector, ATtiny44, and 6-pin ISP header, with assorted passive components. I started with the Eagle files for the USBtinyISP, although there's almost nothing left of it. Most of the parts for the FabISP are in the FabLab inventory. Exceptions include the Mini-B USB connector (SparkFun, Digi-Key), 12 MHz crystal (Digi-Key), and 18 pF capacitors for the crystal (Digi-Key).</p>
 <h3 id="assignment-fab-isp-pcb-milling-using-modella">Assignment-FAB ISP PCB milling using Modella</h3>
 <h4 id="fab-isp-design-layout">Fab ISP design layout</h4>
 <p>to create a design layout we can use softwares like Eagle,Kokopelli ,the file will be .png format,here is Fab ISP design layout downloaded from this following link,Mr.Luciano shared the link via slack,</p>
 <p><a href="http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png">hello.ISP.44.traces.png</a></p>
-<p><img src="img/111.png" alt="" /> <img src="img/1324.png" alt="" /></p>
+<p><img src="img/isp1.png" alt="" /> <img src="img/isp3.png" alt="" /></p>
 <p>Downloaded fab isp labelled diagram from</p>
 <p><a href="http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png">hello.ISP.44.png exterior</a></p>
-<center>
-<img src="img/label.png" alt="" />
-</center>
+<div class="figure">
+<img src="img/isp2.png" alt="" />
+
+</div>
 <p>next step was loading the png using fab modules,The fab modules provide a set of software tools for personal fabrication, intended for use with machines common to fab labs.After installing the Fab modules, next select input and select file type as “.png” and the output as “Roland Modela MDX-20”. then loaded the png file,select make path,put the the offse value as 4,diameter as 0.4,now i am able to see the path thr0ugh which milling going to happen,put x and y as 20 to move the drilling bit and set the the position,next manually adjusted the z axis by pressing the down arrow,selected the bit 1/64 as i want to mill the traces first,</p>
+<div class="figure">
+<img src="img/fabmil1.png" alt="" />
+
+</div>
 <div class="figure">
 <img src="img/mill.png" alt="" />
 
@@ -31,11 +38,16 @@
 
 </div>
 <p>after milling the traces,next step was to cut the pcb from copper board ,for that i, had to change the bit first ,now i chose 1/32 bit loaded the cutout image then repeated the steps to set the bit and xyz plane,made the path,set diameter and offset,now pressed the make rml,now its ready to mill,the pressed start milling....This is my fabisp pcb after milling,even though it doesn't look perfect...its fine..</p>
+<div class="figure">
+<img src="img/fabmil2.png" alt="" />
+
+</div>
 <center>
 <img src="img/fabisp.png" alt="" />
 </center>
 <h3 id="soldering-fab-isp">Soldering FAB ISP</h3>
-<p>This is my first soldering experiance, Soldering is the process of using a filler material (solder) to fix components in pcb sheet. Soldering occurs at relatively low temperatures (around 400 degrees Fahrenheit) as compared to brazing and welding, which actually melt and fuse the materials themselves at higher temperatures. In soldering the filler material becomes liquid, coats the pieces it is brought into contact with, and is then allowed to cool. As the solder cools it hardens, and the two materials are joined. Soldering is a quick way to join many types of materials, from copper pipe to stained glass. It creates an electrically conductive strong bond between components that can be re-heated (desoldered) if you should ever want to disconnect two items joined together. It's great for joining electrical components and wires and is used in just about everything electronic.</p>
+<p>This is my first soldering experiance, Soldering is the process of using a filler material (solder) to fix components in pcb sheet. Soldering occurs at relatively low temperatures (around 400 degrees Fahrenheit) as compared to brazing and welding, which actually melt and fuse the materials themselves at higher temperatures.</p>
+<p>In soldering the filler material becomes liquid, coats the pieces it is brought into contact with, and is then allowed to cool. As the solder cools it hardens, and the two materials are joined. Soldering is a quick way to join many types of materials, from copper pipe to stained glass. It creates an electrically conductive strong bond between components that can be re-heated (desoldered) if you should ever want to disconnect two items joined together. It's great for joining electrical components and wires and is used in just about everything electronic.</p>
 <p>To solder the FAB ISP i downloaded the fab isp labelled board diagram from this link so that i can see what components you need to and where to place them on the board.</p>
 <p><a href="http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!" class="uri">http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!</a></p>
 <p>i listed all the components required based on above labelled diagram</p>
@@ -50,7 +62,8 @@
 <p>This is my first soldering experiance, Soldering is the process of using a filler material (solder) to fix components in pcb sheet. Soldering occurs at relatively low temperatures (around 400 degrees Fahrenheit) as compared to brazing and welding, which actually melt and fuse the materials themselves at higher temperatures. In soldering the filler material becomes liquid, coats the pieces it is brought into contact with, and is then allowed to cool. As the solder cools it hardens, and the two materials are joined. Soldering is a quick way to join many types of materials, from copper pipe to stained glass. It creates an electrically conductive strong bond between components that can be re-heated (desoldered) if you should ever want to disconnect two items joined together. It's great for joining electrical components and wires and is used in just about everything electronic.</p>
 <p>To solder the FAB ISP i downloaded the fab isp labelled board diagram from this link so that i can see what components you need to and where to place them on the board.</p>
 <p><a href="http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!" class="uri">http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png!</a></p>
-<p>i listed all the components required based on above labelled diagram</p>
+<p>diagramComponent Marking Notes:</p>
+<p>i listed all the components required based on above labelled</p>
 <pre><code>1 ATTiny 44 microcontroller
 1 Capacitor 1uF
 2 Capacitor 10 pF
@@ -83,21 +96,12 @@ two 6 pin connectors</code></pre>
 </div>
 <p>3 .Heat gun (to desolder any component)</p>
 <p>As my instructor luciano insisted i started with small components like resistors,capacitors, If you haven't soldered before, it's probably good to practice with the smaller components (e.g. resistors and capacitors) before trying the microcontroller.</p>
-<p>The USB connector was probably the hardest, because the traces are so narrow. I did the ISP header at the end, so it didn't get in the way when i was trying to solder other components. Most of the components was able to oriented either way, with the exception of the microcontroller (the circle marking pin 1 should be in the lower left) and the zener diodes,i forgot to take photographs during soldering,as we have got only 1 soldeing unit it was quiet busy during soldering process....</p>
+<p>The USB connector was probably the hardest, because the traces are so narrow. I did the ISP header at the end, so it didn't get in the way when i was trying to solder other components. Most of the components was able to oriented either way, with the exception of the microcontroller (the circle marking pin 1 should be in the lower left) and the zener diodes,</p>
 <p>Troubleshooting Short Circuits:</p>
 <p>To find soldering errors,i used digital microscope to do a visual inspection of the board and reflow any solder joints that look cold (not shiny and smooth).The mini USB header wasn't in a good form,so i had to resolder it.</p>
 <pre><code>Then, used multimeter and check all the connections to make sure that:
-- power and ground are not connected
-- there is not a short on the power line.</code></pre>
-<div class="figure">
-<img src="img/solder.png" alt="" />
-
-</div>
-<p>2 .soldering iron</p>
-<div class="figure">
-<img src="img/irron.png" alt="" />
-
-</div>
+* power and ground are not connected
+* there is not a short on the power line.</code></pre>
 <p>3 .Heat gun (to desolder any component)</p>
 <p>As my instructor luciano insisted i started with small components like resistors,capacitors, If you haven't soldered before, it's probably good to practice with the smaller components (e.g. resistors and capacitors) before trying the microcontroller.</p>
 <p>The USB connector was probably the hardest, because the traces are so narrow. I did the ISP header at the end, so it didn't get in the way when i was trying to solder other components. Most of the components was able to oriented either way, with the exception of the microcontroller (the circle marking pin 1 should be in the lower left) and the zener diodes,i forgot to take photographs during soldering,as we have got only 1 soldeing unit it was quiet busy during soldering process....</p>
@@ -136,12 +140,28 @@ two 6 pin connectors</code></pre>
 <li><code>unzip firmware.zip</code></li>
 </ul>
 <p>to do programming the board needs power ,to make sure that the mini USB connector for the FabISP trying to program is plugged into my computer AND that a separate pogramer is plugged in to the 6-pin programming header. (i used another working FabISP )</p>
+<center>
+<p><img src="img/fabprogram1.png" alt="" /></cener></p>
 <p>next step was editing the make file,for that i used the command</p>
 <ul>
-<li><code>gedit Makefile</code></li>
+<li><code>nano Makefile</code></li>
 </ul>
-<center>
-<img src="img/fabprogram1.png" alt="" />
-</center>
+<p>To do the final step used this command - <code>cd Desktop/firmware</code> to navigate to the directory where i saved the FabISP firmware before</p>
+<p>Next to compile the firmware.</p>
+<ul>
+<li><p><code>make clean</code></p></li>
+<li><p><code>make hex</code></p></li>
+<li><code>make fuse</code></li>
+<li><p><code>make program</code></p></li>
+</ul>
+<p>finally it programmed,next i wnated Verify that is ISP working correctly:</p>
+<ul>
+<li><code>lsusb</code> in terminal ,then i got this window</li>
+</ul>
+<div class="figure">
+<img src="img/fabisptiny.png" alt="" />
+
+</div>
+<p>Finally i have done it,after prograaming i removed solder bridge .</p>
 </body>
 </html>
