@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h3 id="antimony-installation">Antimony installation</h3>
+<p>Today we got a new instructor Mr.Francisco Sanchez from Fab Lab Trivandrum,He introduced us a new CAD software Antimony,Antimony is a computer-aided design (CAD) tool from a parallel universe in which CAD software evolved from Lisp machines rather than drafting tables.Antimony is built on three mostly-orthogonal axes:</p>
+<pre><code>A framework for tracking information flow through directed acyclic graphs
+A geometry engine for doing CSG
+A standard library of shapes and transforms</code></pre>
+<p>Antimony is the only software that gives exact geometric representation of a 3D model instead of finite element approximations. The distinguishing features of Antimony are :</p>
+<ul>
+<li>Geometric Function representation</li>
+<li>Hierarchical Design</li>
+<li>Parametric Design</li>
+</ul>
+<p>to install Antimony we reffered this link <a href="https://github.com/mkeeter/antimony/blob/develop/BUILDING.md" class="uri">https://github.com/mkeeter/antimony/blob/develop/BUILDING.md</a></p>
+<p>WE got all instructions from here</p>
+<p>First step is to install the Qt. Here is the link <a href="http://www.qt.io/download-open-source/#section-3" class="uri">http://www.qt.io/download-open-source/#section-3</a></p>
+<p>Then installed all the dependencies</p>
+<p>These are the commands used</p>
+<ul>
+<li>sudo apt-get install build-essential</li>
+<li>sudo apt-get install libpng-dev</li>
+<li>sudo apt-get install python3-dev</li>
+<li>sudo apt-get install libgl1-mesa-dev</li>
+<li>sudo apt-get install lemon</li>
+<li>sudo apt-get install flex</li>
+</ul>
+<p>to update the compiler manually:</p>
+<ul>
+<li>sudo add-apt-repository ppa:ubuntu-toolchain-r/test</li>
+<li>sudo apt-get update</li>
+<li>sudo apt-get install gcc-4.9 g++-4.9</li>
+<li>sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 60 --slave /usr/bin/g++ g++ /usr/bin/g++-4.9</li>
+</ul>
+<p>to download the antimony zip file , or clone it using git clone command.</p>
+<ul>
+<li>git clone https://github.com/mkeeter/antimony</li>
+<li>cd antimony</li>
+<li>mkdir build</li>
+<li>cd build</li>
+<li>~/Qt5.4.0/5.4/gcc_64/bin/qmake ../sb.pro make -j3</li>
+<li>./app/antimony</li>
+</ul>
+<p>finally antimony got installed in my pc</p>
+<h3 id="first-works-in-antimony">first works in Antimony</h3>
+Designed some basic shapes using antimony
+<center>
+<img src="img/antimony/1.png" alt="" />
+</center>
+<center>
+<img src="img/antimony/2.png" alt="" />
+</center>
+<center>
+<img src="img/antimony/3.png" alt="" />
+</center>
+<center>
+<img src="img/antimony/4.png" alt="" />
+</center>
+<center>
+<img src="img/antimony/5.png" alt="" />
+</center>
+<center>
+<img src="img/antimony/6.png" alt="" />
+</center>
+<center>
+<img src="img/antimony/7.png" alt="" />
+</center>
+<center>
+<img src="img/antimony/8.png" alt="" />
+</center>
+<p>penholder design</p>
+<center>
+<img src="img/antimony/10.png" alt="" />
+</center>
+<p>i think i am more comfortable to design in antimony than Rhino.</p>
+</body>
+</html>
