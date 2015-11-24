@@ -67,8 +67,15 @@ Designed some basic shapes using antimony
 
 <center>![](img/antimony/8.png)</center>
 
-penholder design
+pen holder design
 
+command i used for this
+
+1 designed a circle(centre ) in 2D->extrude it 
+
+2 Another circle (centre) in 2D ->extrude it
+
+3 Substract circle 2 from circle 1
 <center>![](img/antimony/10.png)</center>
 
 i think i am more comfortable to design in  antimony than Rhino.
