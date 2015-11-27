@@ -14,7 +14,9 @@ to create a design layout we can use softwares like Eagle,Kokopelli ,the file wi
 
 [hello.ISP.44.traces.png](http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png)
 
-![](img/isp1.png)        ![](img/isp3.png)
+<center>![](img/isp1.png)</center>       
+
+<center> ![](img/isp3.png)</center>
 
 
 
@@ -112,18 +114,18 @@ i listed all the components required based on above labelled
     one ribbon cable
     two 6 pin connectors
     
-![](img/comp.png)
+    
+<center>![](img/comp.png)</center>
     
 ####stuffs i used for soldering
 
 1 .Solder
 
-![](img/solder.png)
-    
+<center>![](img/solder.png)</center>
 
 2 .soldering iron
 
-![](img/irron.png)
+<center>![](img/irron.png)</center>
     
 
 3 .Heat gun (to desolder any component)
@@ -150,10 +152,10 @@ As my instructor luciano insisted i started with small components like resistors
 
 The USB connector was  probably the hardest, because the traces are so narrow. I did the ISP header at the end, so it didn't get in the way when i was trying to solder other components. Most of the components was able to oriented either way, with the exception of the microcontroller (the circle marking pin 1 should be in the lower left) and the zener diodes,i forgot to take photographs during soldering,as we have got only 1 soldeing unit it was quiet busy during soldering process....
 
-![](img/fabisp2.png)
+<center>![](img/fabisp2.png)</center>
 here is my fabisp after soldering....
 
-![](img/fab2.png)
+<center>![](img/fab2.png)</center>
 
 Troubleshooting Short Circuits:
 
@@ -218,7 +220,7 @@ finally it programmed,next i wnated  Verify that is ISP  working correctly:
 
 * `lsusb` in terminal ,then i got this window 
 
-![](img/fabisptiny.png)
+<center>![](img/fabisptiny.png)</center>
 
 Finally i have done it,after prograaming i removed  solder bridge . 
 

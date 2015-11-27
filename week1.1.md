@@ -1,7 +1,3 @@
-
-
-
-
 ###Introduction to Prefab and Fab academy
 <div style ="width:800px;">
 
