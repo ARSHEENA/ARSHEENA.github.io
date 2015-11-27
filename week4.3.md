@@ -1,13 +1,28 @@
-###Design hello.ftdi.44 in Kokopelli
+### 3D printer assignment
 
-In this session our task  was to design a board using Kokopelli by adding a LED and button to Neil’s existing helloworld.cad board. And then to mill the board using Modela and solder the components on to it. The board was designed as so: (not to scale)
+Francisco asked me to Print a clip Filament reels tightly to clip 2.85mm filament for keeping all your filament constrained during storage ,Francisco gave me the design  to print a clip ,then asked to print it within 2 hours..
 
-This hello.ftdi circuit layout
+[http://www.thingiverse.com/thing:520205/#files](http://www.thingiverse.com/thing:520205/#files)
 
-<center>![](img/hello/lebel.png)</center>
+Cura software
+
+Opened the image in Cura->selected Normal print->selected layers->then uploaded the image...next step was levelling  3d printer,then fed the design which i have to Ultimaker2,
+
+After that i uploaded the image to Ultimaker2,
+
+<center>![](img/print.png)</center>
+
+<center>![](img/print2.png)</center> 
+
+3d printer started printing.....i wanted to make 10 clips...it took 2 hours to complete the print...
+
+<center>![](img/clip1.png)</center>
+
+the process going on smoothly...here i got 10 numbers of the clip
+
+<center>![](img/print5.png)</center>
 
 
- 
+<center>![](img/clipfinal.png)</center>
 
-LED,RESISTOR AND BUTTON in using KOKOPELLI
-
+this one is good...now i can use it to clip the filament coils.
