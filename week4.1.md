@@ -22,12 +22,12 @@ the code was to draw a circle, but there were no circle as output,Error occured-
 
 
 
-![](img/error.png)
+<center>![](img/error.png)</center>
 
 Terminal.........
 
-![](img/pic2.png)
- 
+<center>![](img/pic2.png)</center>
+
 ## Solution
 
 Francisco insisted to efer-"github-mkeeter /kokopelli/wiki/installing",now i got the solution,that is,We should install some python libraries already in pc to run Kokopelli
@@ -46,7 +46,7 @@ OopS.....Still no oputput....
 
 
 
-![](img/error.png)
+<center>![](img/error.png)</center>
 
 To troubleshoot-referred http://kokompe.cba.mit.edu/-Downloads
 
@@ -62,7 +62,7 @@ to ~/.bashrc, with fab/bin replaced by the location of the bin directory.
 
 Finally it worked!!!!............i got the desired output...
 
-![](img/final.png)
+<center>![](img/final.png)</center>
 
 
 The very next step which i have donewas downloading the ".cad" file from the link 
@@ -73,7 +73,7 @@ The very next step which i have donewas downloading the ".cad" file from the lin
 
 its format was quiet intresting,which display an ordered list in two columns, left side for the code, and right side the pcb preview.
 
-![](img/lll.png)
+<center>![](img/lll.png)</center>
 
 
 Mr.Francisco gave a tutorial about the fuctions in kokopelli to add a component which we need,wire the component and allign the pcb,step by step tutorial to do add a component.
