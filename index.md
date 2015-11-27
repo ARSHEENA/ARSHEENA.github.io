@@ -19,13 +19,13 @@ Recently I discovered this awsome world of Fablab and Fab Academy, I was fascina
 
 ## Link to program weeks
 
-[WEEK1!](week1.html)
+[Software Setup Week](week1.html)
 
-[WEEK2!](week2.html)
+[Extreme Fab Mechines Week](week2.html)
 
-[WEEK3!](week3.html)
+[3D printer project and Shopbot Week](week3.html)
 
-[WEEK4!](week4.html)
+[Electronics Week](week4.html)
 
 
 
