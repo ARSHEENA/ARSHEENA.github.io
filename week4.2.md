@@ -8,7 +8,7 @@ Cura software
 
 Opened the image in Cura->selected Normal print->selected layers->then uploaded the image...next step was levelling  3d printer,then fed the design which i have to Ultimaker2,
 
-After that i uploaded the image to Ultimaker2
+After that i uploaded the image to Ultimaker2,
 
 <center>![](img/print.png)</center>
 
