@@ -1,6 +1,6 @@
 ### 3D printer assignment
 
-Francisco asked me to Print a clip Filament reels tightly to clip 2.85mm filament for keeping all your filament constrained during storage ,Francisco gave me the design  to print a clip ,then asked to print it within 2 hours..
+Francisco asked me to Print a clip Filament reels tightly to clip 2.85mm filament for keeping all your filament constrained during storage ,Francisco gave me the design  to print a clip ,then asked to print it within 2 hours.
 
 [http://www.thingiverse.com/thing:520205/#files](http://www.thingiverse.com/thing:520205/#files)
 
