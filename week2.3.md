@@ -1,6 +1,7 @@
 
 
 ### Introduction to FAB ISP
+
 This session was about FAB Insystem Programmer   The FabISP is an in-system programmer for AVR microcontrollers, designed for production within a FabLab. 
 
 That is, it allows us to program the microcontrollers on other boards we make, using nothing but a USB cable and 6-pin IDC to 6-pin IDC cable. It's based on the USBtiny and V-USB firmwares, which allow the ATtiny44 to perform USB communication in software. Programming can be done through avrdude. 
@@ -10,6 +11,7 @@ The schematic (PDF) is super simple: USB connector, ATtiny44, and 6-pin ISP head
 ### Assignment-FAB ISP PCB milling using Modella
  
 ####Fab ISP design layout 
+
 to create a design layout we can use softwares like Eagle,Kokopelli ,the file will be .png format,here is Fab ISP design layout downloaded from this following link,Mr.Luciano shared the link via slack,
 
 [hello.ISP.44.traces.png](http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png)
@@ -31,9 +33,9 @@ Downloaded fab isp labelled diagram from
 next step was loading the png using fab modules,The fab modules provide a set of software tools for personal fabrication, intended for use with machines common to fab labs.After installing the Fab modules, next select input and select file type as “.png” and the output as “Roland Modela MDX-20”.
 then loaded the png file,select make path,put the the offse value as 4,diameter as 0.4,now i am able to see the path thr0ugh which milling going to happen,put x and y as 20 to move the drilling bit and set the the position,next manually adjusted the z axis by pressing the down arrow,selected the bit 1/64 as i want to mill the traces first,
 
-<center><img src="img/fabmil1.png" width="500"/></center>
+<center>![](img/fabmil1.png)</center>
 
-<center><img src="img/mill.png" width="500"/></center>
+<center>![](img/mill.png)</center>
 
 
 
@@ -43,8 +45,7 @@ then loaded the png file,select make path,put the the offse value as 4,diameter 
 
 Now its all ready to go,Click on the “Make .rml” button and send the machine file to the Modela by clicking on “Send It!”.. After which the machine will start milling and removing copper from around the traces.
 
-<center><img src="img/milli2.png" width="600"/></center>
-
+<center>![](img/milli2.png)</center>
 
 
 
@@ -52,7 +53,7 @@ Now its all ready to go,Click on the “Make .rml” button and send the machine
 after milling the traces,next step was to cut the pcb from copper board ,for that i, had to change the bit first ,now i chose 1/32 bit loaded the cutout image then repeated the steps to set the bit and xyz plane,made the path,set diameter and offset,now pressed the make rml,now its ready to mill,the pressed start milling....This is my fabisp pcb after milling,even though it doesn't look perfect...its
 fine..
 
-![](img/fabmil2.png)
+<center>![](img/fabmil2.png)</center>
 
 
 <center>![](img/fabisp.png)</center>
@@ -208,17 +209,18 @@ To do the final step  used this command -  `cd Desktop/firmware `  to navigate t
 
 Next to compile the firmware. 
 
-* `make clean`
+* make clean
 
-* `make hex`
+* make hex
 
-* `make fuse`
-* `make program`
+* make fuse
+
+* make program
 
 finally it programmed,next i wnated  Verify that is ISP  working correctly:
 
 
-* `lsusb` in terminal ,then i got this window 
+* lsusb` in terminal ,then i got this window 
 
 <center>![](img/fabisptiny.png)</center>
 
