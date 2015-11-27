@@ -1,13 +1,30 @@
-###Design hello.ftdi.44 in Kokopelli
 
-In this session our task  was to design a board using Kokopelli by adding a LED and button to Neil’s existing helloworld.cad board. And then to mill the board using Modela and solder the components on to it. The board was designed as so: (not to scale)
+### Design hello.ftdi.44 in Kokopelli
 
-This hello.ftdi circuit layout
+Added a LED,RESISTOR AND BUTTON in using KOKOPELLI
 
-<center>![](img/hello/lebel.png)</center>
+* 'make fab'
 
 
- 
+### Download and install Arduino IDE 
+* https://www.arduino.cc/
+* 
 
-LED,RESISTOR AND BUTTON in using KOKOPELLI
+
+
+
+## Milling hello.ftdi.44
+
+The trials and tribulations of generating code: the excitement, the anticipation...
+
+
+Well, it might be a little amateurish, but I've done it. I made some changes today that messed it up, so I learnt a lot fixing it. 
+
+
+
+
+## Arudino 1.6.6 Attiny 
+
+
+
 
