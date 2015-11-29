@@ -1,8 +1,8 @@
-##Week1
-### Introduction
 
 
 <div style="width:800px; margin:0 auto;">
+##Week1
+### Introduction
 
 
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
