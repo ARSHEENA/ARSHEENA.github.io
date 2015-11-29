@@ -1,11 +1,22 @@
+## CAD-Computer Aided Design
+
 <div style="width:800px; margin:0 auto;">
 
-## CAD-Computer Aided Design
+
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 Luciano introduced CAD(Computer Aided design),and how we can use a Computer-aided design (CAD)in the creation, modification, analysis, or optimization of a design,importance of CAD during Fab Academy.
 
-Computer-aided design (CAD) is the use of computer programs to create two- or three-dimensional (2D or 3D) graphical representations of physical objects. CAD software may be specialized for specific applications. CAD is widely used for computer animation and special effects in movies, advertising, and other applications where the graphic design itself is the finished product. CAD is also used to design physical products in a wide range of industries, where the software performs calculations for determining an optimum shape and size for a variety of product and industrial design applications.The 2D and 3d designs created in this software can be used on a wide array of FabLab machines like from Vinyl cutter, Shopbot CNC router, Roland Modella milling machine, 3D printers etc. 
+
+
+Computer-aided design (CAD) is the use of computer programs to create two- or three-dimensional (2D or 3D) graphical representations of physical objects. CAD software may be specialized for specific applications. 
+
+
+CAD is widely used for computer animation and special effects in movies, advertising, and other applications where the graphic design itself is the finished product. CAD is also used to design physical products in a wide range of industries, where the software performs calculations for determining an optimum shape and size for a variety of product and industrial design applications.
+
+
+
+The 2D and 3d designs created in this software can be used on a wide array of FabLab machines like from Vinyl cutter, Shopbot CNC router, Roland Modella milling machine, 3D printers etc. 
 
 Luciano showed us different CAD softwares and he suggested to use Rhinoceros(for Windows),Rhino can create, edit, analyze, and translate NURBS curves, surfaces, and solids in Windows. There are no limits on complexity, degree, or size.
 
@@ -24,15 +35,16 @@ This session  was completely for Rhinoceros,Luciano taught us before learning in
 Luciano , our trainer went forward with Rhinoceros training ,we got our first assignment using rhinos as well ...he shared a list of commands to do this assignment via slack.
 
 Rhino Homework 1!
-1. Polygon
+
+1.Polygon
 2. Spiral
 3. Cylinder
-​4. Sweep1
-​6. Bounding Box
-​7. Boolean Difference
-ho god....it took almost 4 hours to complete this design(my first work in rhinoceros.....!!!)
+​4.Sweep1
+5.Bounding Box
+​6.Boolean Difference
 
-<center><img src="img/fabclass.png" width="500"/></center>
+it took almost 4 hours to complete this design(my first work in rhinoceros.....!!!)
+
 
 ![](img/rhino.png)
 </div>
@@ -52,10 +64,11 @@ Antimony is the only software that gives exact geometric representation of a 3D 
    * Geometric Function representation
    * Hierarchical Design
    * Parametric Design
+   </div>
    
 to install Antimony we reffered  this link [https://github.com/mkeeter/antimony/blob/develop/BUILDING.md](https://github.com/mkeeter/antimony/blob/develop/BUILDING.md)
 
-WE got all  instructions from here
+We got all  instructions from here
 
  First step is to install the Qt. Here is the link [http://www.qt.io/download-open-source/#section-3](http://www.qt.io/download-open-source/#section-3)
 
