@@ -1,7 +1,8 @@
+##Introduction to FAB ISP
 <div style="width:800px; margin:0 auto;">
 
 
-## Introduction to FAB ISP
+
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 This session was about FAB Insystem Programmer   The FabISP is an in-system programmer for AVR microcontrollers, designed for production within a FabLab. 
@@ -24,10 +25,10 @@ to create a design layout we can use softwares like Eagle,Kokopelli ,the file wi
 
 [hello.ISP.44.traces.png](http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png)
 
-<center><img src="img/isp1.png" width="500"/></center>
+<center><img src="img/hello.ISP.44.traces.png" width="400"/></center>
 
       
-<center><img src="img/isp3.png" width="500"/></center>
+<center><img src="img/isp3.png" width="300"/></center>
 
 
 
@@ -39,14 +40,14 @@ Downloaded fab isp labelled diagram from
 [hello.ISP.44.png exterior](http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png)
 
 <center><img src="img/modella.png" width="500"/></center>
-<center>![](img/isp2.png)</center> 
+
 
 next step was loading the png using fab modules,The fab modules provide a set of software tools for personal fabrication, intended for use with machines common to fab labs.After installing the Fab modules, next select input and select file type as “.png” and the output as “Roland Modela MDX-20”.
 then loaded the png file,select make path,put the the offse value as 4,diameter as 0.4,now i am able to see the path thr0ugh which milling going to happen,put x and y as 20 to move the drilling bit and set the the position,next manually adjusted the z axis by pressing the down arrow,selected the bit 1/64 as i want to mill the traces first,
 
 <center><img src="img/fabmil1.png" width="500"/></center>
 
-<center><img src="img/mill.png" width="500"/></center>
+<center><img src="img/mill.png" width="300"/></center>
 
 
 
@@ -54,7 +55,8 @@ then loaded the png file,select make path,put the the offse value as 4,diameter 
 Now its all ready to go,Click on the “Make .rml” button and send the machine file to the Modela by clicking on “Send It!”.. After which the machine will start milling and removing copper from around the traces.
 
 <center><img src="img/modella.png" width="500"/></center>
-<center>![](img/milli2.png)</center>
+<center><img src="img/milli2.png" width="500"/></center>
+
 
 
 
@@ -128,7 +130,7 @@ i listed all the components required based on above labelled
     two 6 pin connectors
     
     
-<center><img src="img/comp.png" width="500"/></center>
+<center><img src="img/comp.png" width="300"/></center>
 
 </div>
     

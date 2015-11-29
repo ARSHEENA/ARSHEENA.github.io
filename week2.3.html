@@ -8,8 +8,8 @@
   <style type="text/css">code{white-space: pre;}</style>
 </head>
 <body>
-<div style="width:800px; margin:0 auto;">
 <h2 id="introduction-to-fab-isp">Introduction to FAB ISP</h2>
+<div style="width:800px; margin:0 auto;">
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 <p>This session was about FAB Insystem Programmer The FabISP is an in-system programmer for AVR microcontrollers, designed for production within a FabLab.</p>
 <p>That is, it allows us to program the microcontrollers on other boards we make, using nothing but a USB cable and 6-pin IDC to 6-pin IDC cable. It's based on the USBtiny and V-USB firmwares, which allow the ATtiny44 to perform USB communication in software. Programming can be done through avrdude.</p>
@@ -24,32 +24,29 @@
 <p>to create a design layout we can use softwares like Eagle,Kokopelli ,the file will be .png format,here is Fab ISP design layout downloaded from this following link,Mr.Luciano shared the link via slack,</p>
 <p><a href="http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.traces.png">hello.ISP.44.traces.png</a></p>
 <center>
-<img src="img/isp1.png" width="500"/>
+<img src="img/hello.ISP.44.traces.png" width="400"/>
 </center>
 <center>
-<img src="img/isp3.png" width="500"/>
+<img src="img/isp3.png" width="300"/>
 </center>
 <p>Downloaded fab isp labelled diagram from</p>
 <p><a href="http://academy.cba.mit.edu/classes/embedded_programming/hello.ISP.44.png">hello.ISP.44.png exterior</a></p>
 <center>
 <img src="img/modella.png" width="500"/>
 </center>
-<center>
-<img src="img/isp2.png" alt="" />
-</center>
 <p>next step was loading the png using fab modules,The fab modules provide a set of software tools for personal fabrication, intended for use with machines common to fab labs.After installing the Fab modules, next select input and select file type as “.png” and the output as “Roland Modela MDX-20”. then loaded the png file,select make path,put the the offse value as 4,diameter as 0.4,now i am able to see the path thr0ugh which milling going to happen,put x and y as 20 to move the drilling bit and set the the position,next manually adjusted the z axis by pressing the down arrow,selected the bit 1/64 as i want to mill the traces first,</p>
 <center>
 <img src="img/fabmil1.png" width="500"/>
 </center>
 <center>
-<img src="img/mill.png" width="500"/>
+<img src="img/mill.png" width="300"/>
 </center>
 <p>Now its all ready to go,Click on the “Make .rml” button and send the machine file to the Modela by clicking on “Send It!”.. After which the machine will start milling and removing copper from around the traces.</p>
 <center>
 <img src="img/modella.png" width="500"/>
 </center>
 <center>
-<img src="img/milli2.png" alt="" />
+<img src="img/milli2.png" width="500"/>
 </center>
 <p>after milling the traces,next step was to cut the pcb from copper board ,for that i, had to change the bit first ,now i chose 1/32 bit loaded the cutout image then repeated the steps to set the bit and xyz plane,made the path,set diameter and offset,now pressed the make rml,now its ready to mill,the pressed start milling....This is my fabisp pcb after milling,even though it doesn't look perfect...its fine..</p>
 <center>
@@ -97,7 +94,7 @@ one usb mini cable
 one ribbon cable
 two 6 pin connectors</code></pre>
 <center>
-<img src="img/comp.png" width="500"/>
+<img src="img/comp.png" width="300"/>
 </center>
 </div>
 <h4 id="stuffs-i-used-for-soldering">stuffs i used for soldering</h4>
