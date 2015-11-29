@@ -1,9 +1,10 @@
+##Week1
+### Introduction
+
+
 <div style="width:800px; margin:0 auto;">
 
-## WEEK 1
 
-
-### Introduction
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 The trainer for the Pre Fab academy Mr.Luciano Betlodi gave a brief introduction about Prefab training,Fab academy course ,subject matter, approach, breadth, and applicability of the course,corse duration,This was followed by a self introductions session.Rest of the day utalised for cleaning and setting up the lab for a good working environment in the coming days as recommended by Luciano.
@@ -34,13 +35,6 @@ The trainer for the Pre Fab academy Mr.Luciano Betlodi gave a brief introduction
 
 
 
-
-
-
-####Ubuntu installation continue...
-
-
-Yesterday it was not installed in many of the computers. so today also the day started off installing linux , updating it etc.It took  almost 2 hours get the linux installed in all computers. 
 
 
 
