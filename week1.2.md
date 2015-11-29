@@ -1,12 +1,12 @@
 
 
-###Ubuntu 14.04 installation
 
 <div style="width:800px; margin:0 auto;">
 
 
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
+###Ubuntu 14.04 installation
 
 
 This is my first experiance with Ubuntu,i always used windows before,Luciano,out instructor insisted us to install Ubuntu 14.4. most of my collegues were experts in ubuntu,so i needed their help during each and every steps . The important thing before installation of Ubuntu is to create partitions in the available hard disk space by opening Manage, Computer Management, Storage. Luciano gave me a bootable pendrive with Ubuntu 14.04 OS.
