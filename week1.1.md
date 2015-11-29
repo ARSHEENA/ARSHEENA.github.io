@@ -9,7 +9,7 @@ Mr.Luciano took us to a virtual tour to show Fab labs in world, various apllicat
 
 <center>![](img/fabclass.png)</center>
 
-Luciano disussed about digital fabrication,its scope and technology. 
+Luciano disussed about digital fabrication,its scope and technology innovation. 
 
 <center>![](img/intro.png)</center>
 

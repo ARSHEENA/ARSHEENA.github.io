@@ -1,5 +1,6 @@
 ## CAD-Computer Aided Design
-
+<div style ="width:800px;">
+                             
 Luciano introduced CAD(Computer Aided design),and how we can use a Computer-aided design (CAD)in the creation, modification, analysis, or optimization of a design,importance of CAD during Fab Academy.
 
 Computer-aided design (CAD) is the use of computer programs to create two- or three-dimensional (2D or 3D) graphical representations of physical objects. CAD software may be specialized for specific applications. CAD is widely used for computer animation and special effects in movies, advertising, and other applications where the graphic design itself is the finished product. CAD is also used to design physical products in a wide range of industries, where the software performs calculations for determining an optimum shape and size for a variety of product and industrial design applications.The 2D and 3d designs created in this software can be used on a wide array of FabLab machines like from Vinyl cutter, Shopbot CNC router, Roland Modella milling machine, 3D printers etc. 
@@ -7,6 +8,7 @@ Computer-aided design (CAD) is the use of computer programs to create two- or th
 Luciano showed us different CAD softwares and he suggested to use Rhinoceros(for Windows),Rhino can create, edit, analyze, and translate NURBS curves, surfaces, and solids in Windows. There are no limits on complexity, degree, or size.
 
 He gave a brief description about commands in Rhino and showed how to design a mould using Rhino.
+</div>
 
 
 ####Design using Rhinoceros
