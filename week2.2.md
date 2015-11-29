@@ -1,10 +1,13 @@
-### Introduction to PCB milling using Roland Modela MDX-20
+<div style="width:800px; margin:0 auto;">
 
+## Introduction to PCB milling using Roland Modela MDX-20
+
+<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 This machine is used to make PCBs for digital fabrication,this one  is compatible with most 3d and 2d authoring software, making it ideal for the rapid prototyping of product designs.It becomes an essential part of Fab lab as it can use to  milling of custom circuit boards, and the production of moulds. This Modela can be used on wood, mdf, modeling wax, plaster and FR1 circuit board blanks.
 
+<center><img src="img/modella.png" width="500"/></center>
 
-<center>![](img/modella.png)</center>
 
 controls on the Roland Modela MDX-20
 
@@ -16,18 +19,21 @@ controls on the Roland Modela MDX-20
 
 4 .Tool Down, moves the cutting head down.
 
+<center><img src="img/control.png" width="500"/></center>
 
-<center>![](img/control.png)</center>
 
 During seting up the pcb milling board i used a double sided tape to fix the board in place,this is how it look like after setting up the milling board,Mr.Luciano insisted to preffer FR-1 copper boards(epoxy paper) as which is eco friendly than FR-4.In the beginning i started by taking the dimensions of milling bed to make sure that the boundaries don't collide with any of the parts of the machine.
 
 The top layer of this is the sacrifice layer. It is only 3 mm deep and contains the holes for the screws to penetrate from the T clamps through it to the bolts in the bottom layer.
 
+<center><img src="img/board.png" width="500"/></center>
 
-<center>![](img/board.png)</center>
-
+</div>
                     
 #### Bits and types
+<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
+
+
 There are 2 types
 * Flat
 * Ball
@@ -37,11 +43,13 @@ here i preferred 2 flute Ball nose Bit to design my pcb
 2 .1/64 Milling bits
 
 To mill out the traces of my circuit board i used 1/64th endmill(0.01 inch), and to cut the board from pcb used 1/32 endmill bit.
-                 
-<center>![](img/bit.png)</center>
 
+<center><img src="img/bit.png" width="500"/></center>
+
+</div>
                  
 ####Working 
+<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 Putting the bit in
 
@@ -52,3 +60,6 @@ Zeroing
 To do this step moved the endmill over the board so that i can lower it to the copper. Used the rml_move tool, sending it the x and y you used as the origin when generating rml file above,made Xmin and Ymin.Next sept was setting up the Z axis manually,for that i lowered  the bit as close as get to the  copper plate but without touching it by keeping the down button pressed.when press the button once, the head moved the bit down exactly 7 mills i think...once the bit got resting just on the top of the milling surface,i loosened the set screws again using Allen key and pushed the bit all the way onto the copper,now i can hear a small tick, now i tightened the screws again.
 
 now the mechine is all set to milling,next step is loading a png file and start milling.
+
+</div>
+</div>

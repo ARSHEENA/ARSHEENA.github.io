@@ -1,7 +1,10 @@
+<div style="width:800px; margin:0 auto;">
+
 ## WEEK 1
 
 
 ### Introduction
+<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 The trainer for the Pre Fab academy Mr.Luciano Betlodi gave a brief introduction about Prefab training,Fab academy course ,subject matter, approach, breadth, and applicability of the course,corse duration,This was followed by a self introductions session.Rest of the day utalised for cleaning and setting up the lab for a good working environment in the coming days as recommended by Luciano.
 
@@ -15,7 +18,7 @@ The trainer for the Pre Fab academy Mr.Luciano Betlodi gave a brief introduction
 
 [CAD-Computer Aided Design](week1.5.html) 
 
-
+</div>
 
 
 

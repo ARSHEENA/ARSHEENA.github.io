@@ -1,4 +1,8 @@
+<div style="width:800px; margin:0 auto;">
+
 ### 3D printer assignment
+
+<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 Francisco asked me to Print a clip Filament reels tightly to clip 2.85mm filament for keeping all your filament constrained during storage ,Francisco gave me the design  to print a clip ,then asked to print it within 2 hours.
 
@@ -10,19 +14,21 @@ Opened the image in Cura->selected Normal print->selected layers->then uploaded 
 
 After that i uploaded the image to Ultimaker2,
 
-<center>![](img/print.png)</center>
 
-<center>![](img/print2.png)</center> 
+<center><img src="img/print.png" width="500"/></center>
+
+<center><img src="img/print2.png" width="500"/></center>
 
 3d printer started printing.....i wanted to make 10 clips...it took 2 hours to complete the print...
 
-<center>![](img/clip1.png)</center>
+<center><img src="img/clip1.png" width="500"/></center>
 
 the process going on smoothly...here i got 10 numbers of the clip
 
-<center>![](img/print5.png)</center>
+<center><img src="img/print5.png" width="500"/></center>
 
-
-<center>![](img/clipfinal.png)</center>
+<center><img src="img/clipfinal.png" width="500"/></center>
 
 this one is good...now i can use it to clip the filament coils.
+</div>
+</div>

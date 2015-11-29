@@ -1,13 +1,17 @@
+<div style="width:800px; margin:0 auto;">
+
 
 ##KOKOPELLI INSTALLATION
+<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 
 Kokopelli is a software tool for computer-aided design and manufacturing,an opensource tool the design the PCBs,2D and 3D models can described as Python scripts
 
 I am new to Kokopelli and starting out right in the kokopelli for UBUNTU version 14.04.Our trainer for this week Mr.Franisco helped me since begining,first of all i downloaded KOKO-RETRO ZIP from the link -exctracted it open the folder koko-retro
-
+</div>
 
 ### Open Terminal-Use the following instruction
+<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 * `make clean`
 * `cd bin`
@@ -21,14 +25,18 @@ to open kokopelli
 the code was to draw a circle, but there were no circle as output,Error occured- No output
 
 
+<center><img src="img/error.png" width="500"/></center>
 
-<center>![](img/error.png)</center>
+<center>![]()</center>
 
 Terminal.........
 
-<center>![](img/pic2.png)</center>
+<center><img src="img/pic2.png" width="500"/></center>
+
+</div>
 
 ## Solution
+<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
 
 Francisco insisted to efer-"github-mkeeter /kokopelli/wiki/installing",now i got the solution,that is,We should install some python libraries already in pc to run Kokopelli
 
@@ -45,8 +53,9 @@ use the command 'sudo ./kokpelli -r
 OopS.....Still no oputput....
 
 
+<center><img src="img/error.png" width="500"/></center>
 
-<center>![](img/error.png)</center>
+
 
 To troubleshoot-referred http://kokompe.cba.mit.edu/-Downloads
 
@@ -62,7 +71,7 @@ to ~/.bashrc, with fab/bin replaced by the location of the bin directory.
 
 Finally it worked!!!!............i got the desired output...
 
-<center>![](img/final.png)</center>
+<center><img src="img/final.png" width="500"/></center>
 
 
 The very next step which i have donewas downloading the ".cad" file from the link 
@@ -73,14 +82,17 @@ The very next step which i have donewas downloading the ".cad" file from the lin
 
 its format was quiet intresting,which display an ordered list in two columns, left side for the code, and right side the pcb preview.
 
-<center>![](img/lll.png)</center>
+<center><img src="img/lll.png" width="500"/></center>
+
+
 
 
 Mr.Francisco gave a tutorial about the fuctions in kokopelli to add a component which we need,wire the component and allign the pcb,step by step tutorial to do add a component.
 
 
 
-
+</div>
+</div>
 
 
 

@@ -1,4 +1,11 @@
+<div 
+style="width:800px; margin:0 auto;">
+
+
 # WEEK 4
+
+<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
+
 This week our tutor was Fransisco from Fab lab trivandrum,this week was such an awsome learning week with fransisco.
 Design Hello ftdi using Kokopelli,leveling 3d printer, 
 
@@ -8,30 +15,13 @@ Design Hello ftdi using Kokopelli,leveling 3d printer,
 
 [3D printer assignment](week4.3.html)
 
-[hello.ftdi.44 in Kokopelli(editing Neil’s circuit boards) ](week4.4.html)
+[hello.ftdi.44 in Kokopelli(editing Neil’s circuit boards](week4.4.html)
+
+
+</div>
 
 
 
-
-
-
-### Download and install Arduino IDE 
-
-
-
-
-## Milling hello.ftdi.44
-
-The trials and tribulations of generating code: the excitement, the anticipation...
-
-
-Well, it might be a little amateurish, but I've done it. I made some changes today that messed it up, so I learnt a lot fixing it. 
-
-
-
-
-## Arudino 1.6.6 Attiny 
-
-
+</div>
 
 
