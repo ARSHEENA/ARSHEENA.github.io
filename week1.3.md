@@ -1,10 +1,10 @@
-###MERCURIAL INSTALLATION
-
 
 <div style="width:800px; margin:0 auto;">
 
 
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
+###MERCURIAL INSTALLATION
+
 
 This session was an introduction about mercurial,to get setup on the course website using Mercurial. I'd heard of it before but not ever really looked into it in detail.
 Mercurial is a cross-platform, distributed revision control tool for software developers.Tutorial which covers how to install Mercurial on Ubuntu and clone the Fab Academy archive helped me to install mercurial.
