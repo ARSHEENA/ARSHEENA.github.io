@@ -1,7 +1,7 @@
 <div style="width:800px; margin:0 auto;">
 
 
-<center><img src="img/fabkochi.png" width="200"/></center>
+<center><img src="img/fabkochi.png" width="400"/></center>
 
                              
 <div align="justify" style="margin-left:2.5%" style="margin-right:3%">
