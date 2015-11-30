@@ -17,6 +17,8 @@ Design Hello ftdi using Kokopelli,leveling 3d printer,
 
 [hello.ftdi.44 in Kokopelli(editing Neil’s circuit boards](week4.4.html)
 
+[Programming Hello FTDI](week4.5.html)
+
 
 </div>
 

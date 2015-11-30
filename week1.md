@@ -15,7 +15,7 @@ The trainer for the Pre Fab academy Mr.Luciano Betlodi gave a brief introduction
 
 [MERCURIAL INSTALLATION](week1.3.html)
 
-[website development and creating Github profile]
+[website development and creating Github profile](week1.4.html)
 
 [CAD-Computer Aided Design](week1.5.html) 
 

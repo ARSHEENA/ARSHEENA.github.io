@@ -102,11 +102,7 @@ Well, it might be a little amateurish, but I've done it. I made some changes tod
 
 <div>
 
-### Arudino 1.6.6 Attiny 
-
-<div align="justify" style="margin-left:2.5%" style="margin-right:3%">
+will update soon!!!
 
 
 
-</div>
-</div>

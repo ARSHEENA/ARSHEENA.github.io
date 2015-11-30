@@ -16,6 +16,7 @@ This week was all about digital fabrication equipments we are using in fablab to
 
 [FAB ISP](week2.3.html)
 
+[Molding and casting](week2.4.html)
 
 </div>
 
